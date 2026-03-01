@@ -1653,20 +1653,30 @@ WinDLL_WriteLog                       → 写入日志
 
 **分析：** jason-xie-123 的仓库构成了一套完整的**跨平台 VPN 客户端开发与分发工具链**：隧道核心（TUN/TAP, gVisor）+ Windows/Android/iOS 客户端 + 安装器 + 分发基础设施。Arctic Code Vault 徽章表明 2020 年前已有重要活动，不是临时账户。
 
-#### D. 香港天坤信息技术有限公司
+#### D. HONGKONG IRAY TECHNOLOGY CO., LTD（香港艾瑞科技有限公司）
 
 | 属性 | 值 |
 |------|-----|
+| **香港注册编号** | 2050875 |
+| **成立日期** | 2014年3月11日 |
+| **类型** | 股份有限私人公司 |
+| **注册地址** | 01 OF FLAT 225 2/F, MEGACUBE 8 WANG KWONG ROAD, KOWLOON BAY, KL, Hong Kong |
 | **App Store 开发者** | IRAY Mobile |
+| **关联实体** | HONG KONG TIANKUN INFORMATION TECHNOLOGY CO., LIMITED |
 | **产品** | QuickQ VPN, ComlinkVPN - Lightning Proxy |
 | **客服邮箱** | cs@js7.io |
 | **官网** | quickq.io |
+| **iOS Bundle** | `work.js7.apps.tools.quickq` |
+| **Android Package** | `io.quickq.app.android` |
+| **自治系统号** | **AS213347 (AS_IRAY)**，2020-04-17 通过 RIPE 分配 |
+| **IP 范围** | 103.207.70.0/24 (256 个 IPv4 地址) |
+| **上游提供商** | AS153726 (上海辉端科技有限公司) |
 
 **分发域名：**
 - quickq.io（官方）
-- fx-quickq.com.cn（本次分析的分发站点）
-- web-quickq.com.cn
-- quickq-cn.com
+- fx-quickq.com.cn（本次分析的分发站点, `.com.cn` 域名需要中国政府身份证件注册）
+- web-quickq.com.cn, quickq-cn.com
+- dl.js7.link, js66.site, 6js.uk
 - quickqd.com, quickqve.com, bestquickq.com, fastquickq.com, quickqvpn.net
 
 #### E. Letsgo-Network GitHub 组织（官方开发）
@@ -1726,6 +1736,49 @@ WinDLL_WriteLog                       → 写入日志
 - **来源：** [奇安信](https://ti.qianxin.com/blog/articles/apt-q-27-gang-recent-use-of-silver-fox-trojan-stealing-activities-en/)
 - 发现"大量类似攻击样本，包括木马化的快连 VPN 和纸飞机软件安装包"
 - Silver Fox 木马结合 Winos 4.0 用于远程控制和窃密
+
+#### 活动 6：PLAYFULGHOST（2025年1月 — Google 发现）
+- **来源：** Google Managed Defense
+- 通过 SEO 投毒分发木马化 LetsVPN 安装器
+- PLAYFULGHOST 是另一个 Gh0st RAT 变种，含键盘记录、屏幕截图、音频捕获
+- 目标：使用搜狗、QQ、360 的华语 Windows 用户
+
+#### 活动 7：FortiGuard Labs / 大规模台湾攻击（2026年）
+- **来源：** [FortiGuard Labs](https://www.fortinet.com/blog/threat-research/massive-winos-40-campaigns-target-taiwan)
+- 识别到域名注册人 **李积强 (Li Jiqiang)**，邮箱 `gongluliu@zju.edu.cn`（浙江大学域名）
+- 在多个 Winos 4.0 C2 域名中持续使用该注册身份
+- 机器标识符 `desktop-t3n3m3q` 在多个活动的 LNK 元数据中重复出现
+- 使用 BYOVD（自带漏洞驱动）技术终止安全软件
+
+### 19.3.1 Silver Fox APT 恶意软件 PDB 路径（关键发现）
+
+Silver Fox 恶意样本中的 PDB 路径揭示开发者环境：
+```
+C:\Users\Administrator\Desktop\Quick4\主插件\Release\上线模块.pdb
+  → "Quick4" 项目名可能指 QuickQ 第4代或活动代号
+  → "主插件" = 主插件, "上线模块" = 上线/连接模块
+
+E:\冲锋\进行中\Code_Shellcode - 裸体上线用作注入\Release\Code_Shellcode.pdb
+  → "冲锋/进行中" = 冲锋/进行中
+  → "裸体上线用作注入" = 裸体上线用于注入
+
+C:\Users\Administrator\Desktop\大馬專案(二)\x64\Release\DLL.pdb
+  → "大馬專案(二)" = 马来西亚项目（第二期）
+```
+
+**"Quick4" 项目名称的重要性：** 该 PDB 路径出现在 Silver Fox 恶意软件中，暗示 QuickQ 与 APT 组织之间可能存在比单纯"木马化合法软件"更深层的关联。
+
+### 19.3.2 关键威胁行为者个人信息
+
+| 姓名 | 角色 | 关联 |
+|------|------|------|
+| **李积强 (Li Jiqiang)** | Silver Fox C2 域名注册人 | FortiGuard 在多个 Winos 4.0 活动域名中识别到；邮箱 `gongluliu@zju.edu.cn`（浙江大学） |
+| **谢毅斌 (Xie Yibin)** | Netpas 创始人/CEO | 创立北京联宇益通，20+ 年通信行业经验 |
+| **jason-xie-123** | GitHub 开发者 | 31 个 VPN 开发仓库；姓 "Xie"（谢）与 Netpas 创始人同姓 |
+| **Hong Lei** | LetsGo Network 现任董事 | 加拿大公司记录 |
+| **Dong Tan** | LetsGo Network 前董事 | 2019-01-24 前任职 |
+| **"hong"** | LetsGo Network 开发者 | Google Play 开发者联系邮箱 `hong@letsgo-network.com` |
+| **"jiangjing"** | Netpas 域名联系人 | netpas.com.cn WHOIS: `jiangjing@netpas.cn` |
 
 ### 19.4 QuickQ 与 LetsVPN 关联分析
 
