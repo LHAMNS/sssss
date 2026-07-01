@@ -43,30 +43,32 @@ python3 neutralize_workflow.py --migrate-from-defanged
 
 ---
 
-## 四、⚠️ Git 历史清除(关键,否则前功尽弃)
+## 四、✅ Git 历史清除(已执行完成 2026-07-01)
 
-即使这一 commit 换成强加密,**旧的 `infected` 弱加密版本仍永久留在 git 历史**里(`git checkout <旧commit>` 即可还原)。彻底方案二选一:
+**已完成:** 旧的 `*_DEFANGED.zip*`(公开密码 `infected` 弱加密)与 `*_INFECTED.zip*` 共 **96 个 blob 已从 git 全历史中移除**;分支历史现为干净的 68 commit,`git rev-list --objects HEAD | grep DEFANGED` = 空。
 
-**A. 全新孤儿分支(推荐,最干净):**
-```bash
-git checkout --orphan clean-public
-git add -A && git commit -m "Neutralized public release (no history)"
-# 用它作为对外发布分支;不推送含旧历史的分支
-```
-**B. 历史重写(git filter-repo):**
+**采用方法(B,git filter-repo):**
 ```bash
 pip install git-filter-repo
-git filter-repo --path-glob 'samples/*_DEFANGED.zip*' --invert-paths
-git filter-repo --path-glob 'samples/*_INFECTED.zip*' --invert-paths
-# 强制推送重写后的历史
+git filter-repo --force --invert-paths \
+  --path-glob 'samples/*_DEFANGED.zip*' \
+  --path-glob 'samples/*_INFECTED.zip*'
 ```
-> 本仓库尚未公开(用户确认),历史清除由用户执行。发布前务必完成 A 或 B,并确认 `_SECRET/` 未被提交。
+
+**推送注意(本仓库特有):** 远端有请求体大小限制(大包 force-push 会 HTTP 413),且重写后的
+分叉历史会让 `^remote` 排除失效(git 仍打包全部 ~4GB SECURE blob)。解决办法=**增量重放**:
+先 force-push 前 21 个小 commit 作为新根,再对每个 ~100MB 的 `SECURE batch` commit 逐个
+fast-forward 推送(每次一个小包,均 <限额)。脚本见提交记录。
+
+> 验证(发布前复核):`git rev-list --objects HEAD | grep -E 'DEFANGED|INFECTED'` 应为空;
+> `git rev-list --objects HEAD | grep _SECRET/` 应为空(均已确认)。旧 commit 在远端已不可达,
+> 会被服务端 GC。
 
 ---
 
 ## 五、发布前检查清单
-- [ ] `_SECRET/password.txt` 在 `.gitignore` 中且未被 `git add`(`git log --all -- samples/_SECRET/` 应为空)
-- [ ] 仓库内无 `*_DEFANGED.zip` / `*_INFECTED.zip`(公开密码版本)残留
-- [ ] 历史已按第四节清除(孤儿分支或 filter-repo)
-- [ ] 公开层 `analysis/*.json` 不含可执行字节(设计如此)
-- [ ] 强密码通过**带外渠道**单独交付给需要完整样本的团队,绝不进仓库
+- [x] `_SECRET/password.txt` 在 `.gitignore` 中且未被 `git add`(全历史 `grep _SECRET/` = 空)
+- [x] 仓库内无 `*_DEFANGED.zip` / `*_INFECTED.zip`(公开密码版本)残留
+- [x] 历史已按第四节清除(filter-repo,96 blob 移除,已 force-push)
+- [x] 公开层 `analysis/*.json` 不含可执行字节(设计如此)
+- [ ] 强密码通过**带外渠道**单独交付给需要完整样本的团队,绝不进仓库(内部 `_SECRET/password.txt`;完整版另经 gofile.io 加密带外交付)
