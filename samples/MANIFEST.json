@@ -779,5 +779,16 @@
     "original_size": 39929248,
     "defang_restore_first4_hex": "4d5a5000",
     "archive": "brandB-oldgen_ahaspeed_win_DEFANGED.zip"
+  },
+  {
+    "label": "brandB_heibao_macos_pkg",
+    "brand": "heibao/黑豹",
+    "platform": "macOS",
+    "packer_or_type": "AHAspeed家族B macOS .pkg(xar!) 新样本类型",
+    "distribution_url": "https://swtcn.fdkwl888.com/d/heibao/heibao_mac.pkg",
+    "original_sha256": "94367c810e2187612583ce07448553eee777a3e94e1a48240597222bd149fdac",
+    "original_size": 70458743,
+    "defang_restore_first4_hex": "78617221",
+    "archive": "brandB_heibao_macos_pkg_DEFANGED.zip"
   }
 ]
