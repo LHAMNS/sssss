@@ -702,5 +702,38 @@
     "original_size": 46401189,
     "defang_restore_first4_hex": "78da6360",
     "archive": "yunyin_clashverge_macos_DEFANGED.zip"
+  },
+  {
+    "label": "lure_minecraft_win",
+    "brand": "minecraft",
+    "platform": "Windows",
+    "packer_or_type": "AHAspeed Flutter家族(游戏/聊天诱饵新主题)",
+    "distribution_url": "https://www.awsdl.com/download/3rdparty/seo/minecraft/minecraft_win.exe",
+    "original_sha256": "23f812d2b3aa3ce8d8e1ebc00be69d27b35cbea4ee45eb4603d7aba258057b56",
+    "original_size": 53385736,
+    "defang_restore_first4_hex": "4d5a5000",
+    "archive": "lure_minecraft_win_DEFANGED.zip"
+  },
+  {
+    "label": "lure_genshin_win",
+    "brand": "genshin",
+    "platform": "Windows",
+    "packer_or_type": "AHAspeed Flutter家族(游戏/聊天诱饵新主题)",
+    "distribution_url": "https://www.awsdl.com/download/3rdparty/seo/genshin/genshin_win.exe",
+    "original_sha256": "6b39bc2cdc0a5a67d96259dcd23e05cfc6878f0cd899adba57e7311b3d054e3e",
+    "original_size": 53442232,
+    "defang_restore_first4_hex": "4d5a5000",
+    "archive": "lure_genshin_win_DEFANGED.zip"
+  },
+  {
+    "label": "lure_discord_win",
+    "brand": "discord",
+    "platform": "Windows",
+    "packer_or_type": "AHAspeed Flutter家族(游戏/聊天诱饵新主题)",
+    "distribution_url": "https://www.awsdl.com/download/3rdparty/seo/discord/discord_win.exe",
+    "original_sha256": "6b3d942cd70e77de4a034eaed8d2109c2403b3814f7a152cafd8620c0886ec07",
+    "original_size": 53352672,
+    "defang_restore_first4_hex": "4d5a5000",
+    "archive": "lure_discord_win_DEFANGED.zip"
   }
 ]
