@@ -790,5 +790,60 @@
     "original_size": 70458743,
     "defang_restore_first4_hex": "78617221",
     "archive": "brandB_heibao_macos_pkg_DEFANGED.zip"
+  },
+  {
+    "label": "ratline_valleyrat_395cad56",
+    "brand": "ValleyRAT",
+    "platform": "Windows(RAT)",
+    "packer_or_type": "ValleyRAT本体(远控木马,URLhaus原始地址)",
+    "distribution_url": "http://103.231.14.104/a.exe",
+    "original_sha256": "395cad56cd4a16bb695ee014321f5828ec9147a0b605da26b87950afcb5aee6b",
+    "original_size": 161792,
+    "defang_restore_first4_hex": "4d5a9000",
+    "archive": "ratline_valleyrat_395cad56_DEFANGED.zip"
+  },
+  {
+    "label": "ratline_valleyrat_35d37575",
+    "brand": "ValleyRAT",
+    "platform": "Windows(RAT)",
+    "packer_or_type": "ValleyRAT本体(远控木马)",
+    "distribution_url": "http://103.231.14.104/win.exe",
+    "original_sha256": "35d37575d85e16cfbb406a3f45dbb81740e736fbb388363e984176a33d13f462",
+    "original_size": 161792,
+    "defang_restore_first4_hex": "4d5a9000",
+    "archive": "ratline_valleyrat_35d37575_DEFANGED.zip"
+  },
+  {
+    "label": "ratline_atlascross_eb96ca17",
+    "brand": "AtlasCross/AtlasAgent",
+    "platform": "Windows(RAT)",
+    "packer_or_type": "AtlasCross RAT本体(Silver Fox)",
+    "distribution_url": "http://muriaspetin.es/wp-load/WickrMe.exe",
+    "original_sha256": "eb96ca17a4a1c2aa97dd6fb686a40cb226c49c8abec01190f1af75080a9aaa6b",
+    "original_size": 6600192,
+    "defang_restore_first4_hex": "4d5a7800",
+    "archive": "ratline_atlascross_eb96ca17_DEFANGED.zip"
+  },
+  {
+    "label": "ratline_atlascross_f3f0c873",
+    "brand": "AtlasCross/AtlasAgent",
+    "platform": "Windows(RAT)",
+    "packer_or_type": "AtlasCross RAT本体(Silver Fox)",
+    "distribution_url": "http://muriaspetin.es/wp-load/Trackma.exe",
+    "original_sha256": "f3f0c87303fcc19aae446de0ff80560e09fdc1fc4b20b3dd442871b2544c5c7d",
+    "original_size": 9864192,
+    "defang_restore_first4_hex": "4d5a9000",
+    "archive": "ratline_atlascross_f3f0c873_DEFANGED.zip"
+  },
+  {
+    "label": "ratline_gh0st-hupigon_730e1337",
+    "brand": "Gh0st/Hupigon",
+    "platform": "Windows(RAT)",
+    "packer_or_type": "Gh0st系/Hupigon RAT本体",
+    "distribution_url": "theZoo (pw infected)",
+    "original_sha256": "730e1337cf9ecf842a965ea458ee241c2a1e5b0ef1daccde87cd628eb4b37057",
+    "original_size": 721920,
+    "defang_restore_first4_hex": "4d5a5000",
+    "archive": "ratline_gh0st-hupigon_730e1337_DEFANGED.zip"
   }
 ]
