@@ -911,5 +911,71 @@
     "original_size": 2355928,
     "defang_restore_first4_hex": "61554b45",
     "archive": "ratline_winos4_plugin3_DEFANGED.zip"
+  },
+  {
+    "label": "ratline_farfli_59b65b4f",
+    "brand": "Farfli",
+    "platform": "Windows(RAT)",
+    "packer_or_type": "Farfli 本体(MalwareBazaar 认证通道 tag/hash)",
+    "distribution_url": "MalwareBazaar tag=Farfli (三角洲和平op.exe)",
+    "original_sha256": "59b65b4f5058e38b42ec3fe79c5f05b4c29a61d00ddc6052bbbf074c99f75fef",
+    "original_size": 674816,
+    "defang_restore_first4_hex": "4d5a5000",
+    "archive": "ratline_farfli_59b65b4f_DEFANGED.zip"
+  },
+  {
+    "label": "ratline_farfli_929cf7a1",
+    "brand": "Farfli",
+    "platform": "Windows(RAT)",
+    "packer_or_type": "Farfli 本体(MalwareBazaar 认证通道 tag/hash)",
+    "distribution_url": "MalwareBazaar tag=Farfli (svchost.exe)",
+    "original_sha256": "929cf7a15968a4e38eccb852a72874d58c3962f52dcac97cc69b5a6aa113c2d4",
+    "original_size": 282624,
+    "defang_restore_first4_hex": "4d5a9000",
+    "archive": "ratline_farfli_929cf7a1_DEFANGED.zip"
+  },
+  {
+    "label": "ratline_farfli_c99172fc",
+    "brand": "Farfli",
+    "platform": "Windows(RAT)",
+    "packer_or_type": "Farfli 本体(MalwareBazaar 认证通道 tag/hash)",
+    "distribution_url": "MalwareBazaar tag=Farfli (c99172fcbc60cc2e.exe)",
+    "original_sha256": "c99172fcbc60cc2ea59fd7b59cc594c4d7653187d995d29f66bfd94185a479fc",
+    "original_size": 288234,
+    "defang_restore_first4_hex": "4d5a0000",
+    "archive": "ratline_farfli_c99172fc_DEFANGED.zip"
+  },
+  {
+    "label": "ratline_farfli_3776cfbf",
+    "brand": "Farfli",
+    "platform": "Windows(RAT)",
+    "packer_or_type": "Farfli 本体(MalwareBazaar 认证通道 tag/hash)",
+    "distribution_url": "MalwareBazaar tag=Farfli (3776cfbfb90c8e78.exe)",
+    "original_sha256": "3776cfbfb90c8e78ec7a6b55a8a37e3ea918ac3caa7065e432271f5054d6688f",
+    "original_size": 288607,
+    "defang_restore_first4_hex": "4d5a0000",
+    "archive": "ratline_farfli_3776cfbf_DEFANGED.zip"
+  },
+  {
+    "label": "ratline_ioc_299e6791",
+    "brand": "Gh0st",
+    "platform": "Windows(RAT)",
+    "packer_or_type": "Gh0st 本体(MalwareBazaar 认证通道 tag/hash)",
+    "distribution_url": "MalwareBazaar hash=299e6791e4eb8561",
+    "original_sha256": "299e6791e4eb85617c4fab7f27ac53fb70cd038671f011007831b558c318b369",
+    "original_size": 1756160,
+    "defang_restore_first4_hex": "4d5a9000",
+    "archive": "ratline_ioc_299e6791_DEFANGED.zip"
+  },
+  {
+    "label": "ratline_ioc_491872a5",
+    "brand": "Gh0st",
+    "platform": "Windows(RAT)",
+    "packer_or_type": "Gh0st 本体(MalwareBazaar 认证通道 tag/hash)",
+    "distribution_url": "MalwareBazaar hash=491872a50b8db56d",
+    "original_sha256": "491872a50b8db56d6a5ef1ccabe8702fb7763da4fd3b474d20ae0c98969acfe5",
+    "original_size": 23584768,
+    "defang_restore_first4_hex": "d0cf11e0",
+    "archive": "ratline_ioc_491872a5_DEFANGED.zip"
   }
 ]
