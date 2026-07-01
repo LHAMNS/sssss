@@ -735,5 +735,27 @@
     "original_size": 53352672,
     "defang_restore_first4_hex": "4d5a5000",
     "archive": "lure_discord_win_DEFANGED.zip"
+  },
+  {
+    "label": "lure_pojieban_win",
+    "brand": "pojieban/破解版",
+    "platform": "Windows",
+    "packer_or_type": "AHAspeed Flutter家族(破解版诱饵)",
+    "distribution_url": "https://www.awsdl.com/download/3rdparty/seo/pojieban/pojieban_win.exe",
+    "original_sha256": "b088e3e697e9fe55c49b28e2cf524cc6056c441b97712f745114aaf153900a6d",
+    "original_size": 53404352,
+    "defang_restore_first4_hex": "4d5a5000",
+    "archive": "lure_pojieban_win_DEFANGED.zip"
+  },
+  {
+    "label": "lure_haoyong_win",
+    "brand": "haoyong/好用",
+    "platform": "Windows",
+    "packer_or_type": "AHAspeed Flutter家族(免费VPN诱饵)",
+    "distribution_url": "https://www.awsdl.com/download/3rdparty/seo/haoyong/haoyong_win.exe",
+    "original_sha256": "a5287d3613785ae622d48d8aec5293241d01bdbe4eebf2898a93cdb42e1744bd",
+    "original_size": 53427200,
+    "defang_restore_first4_hex": "4d5a5000",
+    "archive": "lure_haoyong_win_DEFANGED.zip"
   }
 ]
