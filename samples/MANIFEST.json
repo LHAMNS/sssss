@@ -8,7 +8,9 @@
     "original_sha256": "1e0a19a19e1ed8589fc97296d62bad73676654229263b015f97cea0b41efe454",
     "original_size": 53370856,
     "defang_restore_first4_hex": "4d5a5000",
-    "archive": "brand_astrill_win_DEFANGED.zip"
+    "archive": "brand_astrill_win_SECURE.zip",
+    "public_analysis": "analysis/brand_astrill_win.json",
+    "neutralization": "header-defang + AES-256 (undisclosed pw); public=analysis-only"
   },
   {
     "label": "brand_biubiu_win",
@@ -19,7 +21,9 @@
     "original_sha256": "fbb4aae382017769dec29d1b914e192fd8ecf1ec1fb1587f8fb24349dca79081",
     "original_size": 53400488,
     "defang_restore_first4_hex": "4d5a5000",
-    "archive": "brand_biubiu_win_DEFANGED.zip"
+    "archive": "brand_biubiu_win_SECURE.zip",
+    "public_analysis": "analysis/brand_biubiu_win.json",
+    "neutralization": "header-defang + AES-256 (undisclosed pw); public=analysis-only"
   },
   {
     "label": "brand_clash_win",
@@ -30,7 +34,9 @@
     "original_sha256": "9f53948b9230d326520a0c3892a107df61a6c30c0d6782bd360dc0d8d5de6dd0",
     "original_size": 53296464,
     "defang_restore_first4_hex": "4d5a5000",
-    "archive": "brand_clash_win_DEFANGED.zip"
+    "archive": "brand_clash_win_SECURE.zip",
+    "public_analysis": "analysis/brand_clash_win.json",
+    "neutralization": "header-defang + AES-256 (undisclosed pw); public=analysis-only"
   },
   {
     "label": "brand_clashx-meta_win",
@@ -41,7 +47,9 @@
     "original_sha256": "a6d613b8c8e9a3344758124b4403340caa810032651693475db82dfb33b84558",
     "original_size": 53286592,
     "defang_restore_first4_hex": "4d5a5000",
-    "archive": "brand_clashx-meta_win_DEFANGED.zip"
+    "archive": "brand_clashx-meta_win_SECURE.zip",
+    "public_analysis": "analysis/brand_clashx-meta_win.json",
+    "neutralization": "header-defang + AES-256 (undisclosed pw); public=analysis-only"
   },
   {
     "label": "brand_clashx_win",
@@ -52,7 +60,9 @@
     "original_sha256": "fdea5ee7d7c302d4a956e21e629e14c32be47317314cf4781d1992e2c4f1e393",
     "original_size": 53294024,
     "defang_restore_first4_hex": "4d5a5000",
-    "archive": "brand_clashx_win_DEFANGED.zip"
+    "archive": "brand_clashx_win_SECURE.zip",
+    "public_analysis": "analysis/brand_clashx_win.json",
+    "neutralization": "header-defang + AES-256 (undisclosed pw); public=analysis-only"
   },
   {
     "label": "brand_cyberghost_win",
@@ -63,7 +73,9 @@
     "original_sha256": "fcc87caef83adb7a9939a296af98a11f5a009564235917ab58563380eb769324",
     "original_size": 53342728,
     "defang_restore_first4_hex": "4d5a5000",
-    "archive": "brand_cyberghost_win_DEFANGED.zip"
+    "archive": "brand_cyberghost_win_SECURE.zip",
+    "public_analysis": "analysis/brand_cyberghost_win.json",
+    "neutralization": "header-defang + AES-256 (undisclosed pw); public=analysis-only"
   },
   {
     "label": "brand_express_win",
@@ -74,7 +86,9 @@
     "original_sha256": "aae8acf5a1130556377ab3babc26f9d9df9e2fd917738e4707851b5c36a9a3fd",
     "original_size": 53370792,
     "defang_restore_first4_hex": "4d5a5000",
-    "archive": "brand_express_win_DEFANGED.zip"
+    "archive": "brand_express_win_SECURE.zip",
+    "public_analysis": "analysis/brand_express_win.json",
+    "neutralization": "header-defang + AES-256 (undisclosed pw); public=analysis-only"
   },
   {
     "label": "brand_feimao_win",
@@ -85,7 +99,9 @@
     "original_sha256": "b7be7df606f04d512bad2d3d511bb12364778ebf193e0ab055731de60c2c2039",
     "original_size": 53302008,
     "defang_restore_first4_hex": "4d5a5000",
-    "archive": "brand_feimao_win_DEFANGED.zip"
+    "archive": "brand_feimao_win_SECURE.zip",
+    "public_analysis": "analysis/brand_feimao_win.json",
+    "neutralization": "header-defang + AES-256 (undisclosed pw); public=analysis-only"
   },
   {
     "label": "brand_feiniao_win",
@@ -96,7 +112,9 @@
     "original_sha256": "ec82bebe6348ba6087d54edcaf17e911af918aff045a213b7b0bad9c3e556efe",
     "original_size": 53440312,
     "defang_restore_first4_hex": "4d5a5000",
-    "archive": "brand_feiniao_win_DEFANGED.zip"
+    "archive": "brand_feiniao_win_SECURE.zip",
+    "public_analysis": "analysis/brand_feiniao_win.json",
+    "neutralization": "header-defang + AES-256 (undisclosed pw); public=analysis-only"
   },
   {
     "label": "brand_feiyu_win",
@@ -107,7 +125,9 @@
     "original_sha256": "e803f7c5aa02099e733d0aedd70e30a093bec06998eb671dde73bff76b711d3c",
     "original_size": 53323752,
     "defang_restore_first4_hex": "4d5a5000",
-    "archive": "brand_feiyu_win_DEFANGED.zip"
+    "archive": "brand_feiyu_win_SECURE.zip",
+    "public_analysis": "analysis/brand_feiyu_win.json",
+    "neutralization": "header-defang + AES-256 (undisclosed pw); public=analysis-only"
   },
   {
     "label": "brand_flclash_win",
@@ -118,7 +138,9 @@
     "original_sha256": "947ac1e84158e01283e89522eb5ec9698d85a8a88c05c2c6d1627caadccf7a0b",
     "original_size": 53296552,
     "defang_restore_first4_hex": "4d5a5000",
-    "archive": "brand_flclash_win_DEFANGED.zip"
+    "archive": "brand_flclash_win_SECURE.zip",
+    "public_analysis": "analysis/brand_flclash_win.json",
+    "neutralization": "header-defang + AES-256 (undisclosed pw); public=analysis-only"
   },
   {
     "label": "brand_fox_win",
@@ -129,7 +151,9 @@
     "original_sha256": "f102dd4f199672e15cbaf38a37c96b547092088a0608bba99e970421aa372144",
     "original_size": 53455696,
     "defang_restore_first4_hex": "4d5a5000",
-    "archive": "brand_fox_win_DEFANGED.zip"
+    "archive": "brand_fox_win_SECURE.zip",
+    "public_analysis": "analysis/brand_fox_win.json",
+    "neutralization": "header-defang + AES-256 (undisclosed pw); public=analysis-only"
   },
   {
     "label": "brand_green_win",
@@ -140,7 +164,9 @@
     "original_sha256": "de3d286e20931bd14ee52cf3e18072b48035d9c2657ce944c6d03dc38731ca21",
     "original_size": 53404640,
     "defang_restore_first4_hex": "4d5a5000",
-    "archive": "brand_green_win_DEFANGED.zip"
+    "archive": "brand_green_win_SECURE.zip",
+    "public_analysis": "analysis/brand_green_win.json",
+    "neutralization": "header-defang + AES-256 (undisclosed pw); public=analysis-only"
   },
   {
     "label": "brand_haitun_win",
@@ -151,7 +177,9 @@
     "original_sha256": "12d7817be5b9122405b2cbfb65548a0162284b44cc1652a66d44bc0257d761e8",
     "original_size": 53561552,
     "defang_restore_first4_hex": "4d5a5000",
-    "archive": "brand_haitun_win_DEFANGED.zip"
+    "archive": "brand_haitun_win_SECURE.zip",
+    "public_analysis": "analysis/brand_haitun_win.json",
+    "neutralization": "header-defang + AES-256 (undisclosed pw); public=analysis-only"
   },
   {
     "label": "brand_heibao_win",
@@ -162,7 +190,9 @@
     "original_sha256": "d4144904b6b317e7effd2847a9d28d7a84d667ebf334a628b29ad9a82a2501a7",
     "original_size": 53595496,
     "defang_restore_first4_hex": "4d5a5000",
-    "archive": "brand_heibao_win_DEFANGED.zip"
+    "archive": "brand_heibao_win_SECURE.zip",
+    "public_analysis": "analysis/brand_heibao_win.json",
+    "neutralization": "header-defang + AES-256 (undisclosed pw); public=analysis-only"
   },
   {
     "label": "brand_hiddify_win",
@@ -173,7 +203,9 @@
     "original_sha256": "123acee67f1da3335c050e28ed23efb9969ebeec30c4bcc9b5d185a06f78eaa4",
     "original_size": 53266392,
     "defang_restore_first4_hex": "4d5a5000",
-    "archive": "brand_hiddify_win_DEFANGED.zip"
+    "archive": "brand_hiddify_win_SECURE.zip",
+    "public_analysis": "analysis/brand_hiddify_win.json",
+    "neutralization": "header-defang + AES-256 (undisclosed pw); public=analysis-only"
   },
   {
     "label": "brand_ipvanish_win",
@@ -184,7 +216,9 @@
     "original_sha256": "0f537e5a739c93dbcd549cfb74c04d6d050f8eb3461e7e93407e8b2298b5b362",
     "original_size": 53358960,
     "defang_restore_first4_hex": "4d5a5000",
-    "archive": "brand_ipvanish_win_DEFANGED.zip"
+    "archive": "brand_ipvanish_win_SECURE.zip",
+    "public_analysis": "analysis/brand_ipvanish_win.json",
+    "neutralization": "header-defang + AES-256 (undisclosed pw); public=analysis-only"
   },
   {
     "label": "brand_karing_win",
@@ -195,7 +229,9 @@
     "original_sha256": "505beaf0824955788ef84cd6305dde5a60879fab1833347e2942d34f97ab951b",
     "original_size": 53322368,
     "defang_restore_first4_hex": "4d5a5000",
-    "archive": "brand_karing_win_DEFANGED.zip"
+    "archive": "brand_karing_win_SECURE.zip",
+    "public_analysis": "analysis/brand_karing_win.json",
+    "neutralization": "header-defang + AES-256 (undisclosed pw); public=analysis-only"
   },
   {
     "label": "brand_kuailian_win",
@@ -206,7 +242,9 @@
     "original_sha256": "fb437e504f24ea45c12e3716f91bf8861385d55f6842803e55065327b1212a14",
     "original_size": 53508088,
     "defang_restore_first4_hex": "4d5a5000",
-    "archive": "brand_kuailian_win_DEFANGED.zip"
+    "archive": "brand_kuailian_win_SECURE.zip",
+    "public_analysis": "analysis/brand_kuailian_win.json",
+    "neutralization": "header-defang + AES-256 (undisclosed pw); public=analysis-only"
   },
   {
     "label": "brand_ladder_win",
@@ -217,7 +255,9 @@
     "original_sha256": "87588e7be34519459f71bea4d6bc55ce9f62be4b23b988e0996efee0d6ccf9b0",
     "original_size": 53370416,
     "defang_restore_first4_hex": "4d5a5000",
-    "archive": "brand_ladder_win_DEFANGED.zip"
+    "archive": "brand_ladder_win_SECURE.zip",
+    "public_analysis": "analysis/brand_ladder_win.json",
+    "neutralization": "header-defang + AES-256 (undisclosed pw); public=analysis-only"
   },
   {
     "label": "brand_lantern_win",
@@ -228,7 +268,9 @@
     "original_sha256": "55e58da70cb088f0b957d69701fe123851d4c07d14891e97e1d96b3eb177963f",
     "original_size": 53549576,
     "defang_restore_first4_hex": "4d5a5000",
-    "archive": "brand_lantern_win_DEFANGED.zip"
+    "archive": "brand_lantern_win_SECURE.zip",
+    "public_analysis": "analysis/brand_lantern_win.json",
+    "neutralization": "header-defang + AES-256 (undisclosed pw); public=analysis-only"
   },
   {
     "label": "brand_liebao_win",
@@ -239,7 +281,9 @@
     "original_sha256": "786d961f5f151d90e56176528a7ff6e610e735da95fc37357853a6fea4c4e7f3",
     "original_size": 53368688,
     "defang_restore_first4_hex": "4d5a5000",
-    "archive": "brand_liebao_win_DEFANGED.zip"
+    "archive": "brand_liebao_win_SECURE.zip",
+    "public_analysis": "analysis/brand_liebao_win.json",
+    "neutralization": "header-defang + AES-256 (undisclosed pw); public=analysis-only"
   },
   {
     "label": "brand_loon_win",
@@ -250,7 +294,9 @@
     "original_sha256": "295aa52285f0294ad728f64db95bcdb12af58c03a8a842f4283f00a7d09dfd11",
     "original_size": 53352256,
     "defang_restore_first4_hex": "4d5a5000",
-    "archive": "brand_loon_win_DEFANGED.zip"
+    "archive": "brand_loon_win_SECURE.zip",
+    "public_analysis": "analysis/brand_loon_win.json",
+    "neutralization": "header-defang + AES-256 (undisclosed pw); public=analysis-only"
   },
   {
     "label": "brand_nekoray_win",
@@ -261,7 +307,9 @@
     "original_sha256": "594f71d4ec3922c0e13ca20414b38609958ed08eeb6f480f51b3f196d88a6ebf",
     "original_size": 53309296,
     "defang_restore_first4_hex": "4d5a5000",
-    "archive": "brand_nekoray_win_DEFANGED.zip"
+    "archive": "brand_nekoray_win_SECURE.zip",
+    "public_analysis": "analysis/brand_nekoray_win.json",
+    "neutralization": "header-defang + AES-256 (undisclosed pw); public=analysis-only"
   },
   {
     "label": "brand_nord_win",
@@ -272,7 +320,9 @@
     "original_sha256": "8c152b694c94e5f6560a408321279c769637414044917148fc6d5760260e10b7",
     "original_size": 53343456,
     "defang_restore_first4_hex": "4d5a5000",
-    "archive": "brand_nord_win_DEFANGED.zip"
+    "archive": "brand_nord_win_SECURE.zip",
+    "public_analysis": "analysis/brand_nord_win.json",
+    "neutralization": "header-defang + AES-256 (undisclosed pw); public=analysis-only"
   },
   {
     "label": "brand_panda_win",
@@ -283,7 +333,9 @@
     "original_sha256": "e7ef283197fef2b84de591f37939e002f6197c85b419f3db103e8f0ff2efc404",
     "original_size": 53393576,
     "defang_restore_first4_hex": "4d5a5000",
-    "archive": "brand_panda_win_DEFANGED.zip"
+    "archive": "brand_panda_win_SECURE.zip",
+    "public_analysis": "analysis/brand_panda_win.json",
+    "neutralization": "header-defang + AES-256 (undisclosed pw); public=analysis-only"
   },
   {
     "label": "brand_potatso_win",
@@ -294,7 +346,9 @@
     "original_sha256": "c099c7fa92f1c72824ff904ee558d26821eaa3466358b586424c05c6f66ee24e",
     "original_size": 53260192,
     "defang_restore_first4_hex": "4d5a5000",
-    "archive": "brand_potatso_win_DEFANGED.zip"
+    "archive": "brand_potatso_win_SECURE.zip",
+    "public_analysis": "analysis/brand_potatso_win.json",
+    "neutralization": "header-defang + AES-256 (undisclosed pw); public=analysis-only"
   },
   {
     "label": "brand_quickq_win",
@@ -305,7 +359,9 @@
     "original_sha256": "5cb99819c866602d2320c75409e983b057cf511968ff8d0c3dfa0f4c457c677c",
     "original_size": 53414336,
     "defang_restore_first4_hex": "4d5a5000",
-    "archive": "brand_quickq_win_DEFANGED.zip"
+    "archive": "brand_quickq_win_SECURE.zip",
+    "public_analysis": "analysis/brand_quickq_win.json",
+    "neutralization": "header-defang + AES-256 (undisclosed pw); public=analysis-only"
   },
   {
     "label": "brand_qv2ray_win",
@@ -316,7 +372,9 @@
     "original_sha256": "b47e2321ed6f8d95aae3f0884e81580166806b88598f51a0de23674d2901cb75",
     "original_size": 53278928,
     "defang_restore_first4_hex": "4d5a5000",
-    "archive": "brand_qv2ray_win_DEFANGED.zip"
+    "archive": "brand_qv2ray_win_SECURE.zip",
+    "public_analysis": "analysis/brand_qv2ray_win.json",
+    "neutralization": "header-defang + AES-256 (undisclosed pw); public=analysis-only"
   },
   {
     "label": "brand_rocket_win",
@@ -327,7 +385,9 @@
     "original_sha256": "d49606343fe3cb6f90fce53271ab3ba30d211ccb7117fd68a2ee43262cfa4647",
     "original_size": 53458224,
     "defang_restore_first4_hex": "4d5a5000",
-    "archive": "brand_rocket_win_DEFANGED.zip"
+    "archive": "brand_rocket_win_SECURE.zip",
+    "public_analysis": "analysis/brand_rocket_win.json",
+    "neutralization": "header-defang + AES-256 (undisclosed pw); public=analysis-only"
   },
   {
     "label": "brand_shadowrocket_win",
@@ -338,7 +398,9 @@
     "original_sha256": "7321afa7b06d53186cb50fb5f8472ba0bbef350c278c7f4a61b62eab342d616c",
     "original_size": 53348784,
     "defang_restore_first4_hex": "4d5a5000",
-    "archive": "brand_shadowrocket_win_DEFANGED.zip"
+    "archive": "brand_shadowrocket_win_SECURE.zip",
+    "public_analysis": "analysis/brand_shadowrocket_win.json",
+    "neutralization": "header-defang + AES-256 (undisclosed pw); public=analysis-only"
   },
   {
     "label": "brand_shandian_win",
@@ -349,7 +411,9 @@
     "original_sha256": "16292be4863f5b54b2f5f118f89be6ca1577bd69fab78c9f1a8984116efd1bba",
     "original_size": 53400368,
     "defang_restore_first4_hex": "4d5a5000",
-    "archive": "brand_shandian_win_DEFANGED.zip"
+    "archive": "brand_shandian_win_SECURE.zip",
+    "public_analysis": "analysis/brand_shandian_win.json",
+    "neutralization": "header-defang + AES-256 (undisclosed pw); public=analysis-only"
   },
   {
     "label": "brand_skyline_win",
@@ -360,7 +424,9 @@
     "original_sha256": "1fdcb992a9354f546e47958c78611ff8c9a33ceb5c2a3e366530c9889da1d776",
     "original_size": 53279768,
     "defang_restore_first4_hex": "4d5a5000",
-    "archive": "brand_skyline_win_DEFANGED.zip"
+    "archive": "brand_skyline_win_SECURE.zip",
+    "public_analysis": "analysis/brand_skyline_win.json",
+    "neutralization": "header-defang + AES-256 (undisclosed pw); public=analysis-only"
   },
   {
     "label": "brand_ssr_win",
@@ -371,7 +437,9 @@
     "original_sha256": "d489f78263219288008a266baace19109cffbdca3a0c4adc9d7b6cf71a925ba5",
     "original_size": 53426408,
     "defang_restore_first4_hex": "4d5a5000",
-    "archive": "brand_ssr_win_DEFANGED.zip"
+    "archive": "brand_ssr_win_SECURE.zip",
+    "public_analysis": "analysis/brand_ssr_win.json",
+    "neutralization": "header-defang + AES-256 (undisclosed pw); public=analysis-only"
   },
   {
     "label": "brand_streisand_win",
@@ -382,7 +450,9 @@
     "original_sha256": "618579b17d33409d6e9794504c26a4afb59cb13eb32b2de5af724ccded63dc3b",
     "original_size": 53339592,
     "defang_restore_first4_hex": "4d5a5000",
-    "archive": "brand_streisand_win_DEFANGED.zip"
+    "archive": "brand_streisand_win_SECURE.zip",
+    "public_analysis": "analysis/brand_streisand_win.json",
+    "neutralization": "header-defang + AES-256 (undisclosed pw); public=analysis-only"
   },
   {
     "label": "brand_surfshark_win",
@@ -393,7 +463,9 @@
     "original_sha256": "18a469777fc6c390ec2ee279bd436bc9f56578c4fc4428672752be71f8fae153",
     "original_size": 53383512,
     "defang_restore_first4_hex": "4d5a5000",
-    "archive": "brand_surfshark_win_DEFANGED.zip"
+    "archive": "brand_surfshark_win_SECURE.zip",
+    "public_analysis": "analysis/brand_surfshark_win.json",
+    "neutralization": "header-defang + AES-256 (undisclosed pw); public=analysis-only"
   },
   {
     "label": "brand_surge_win",
@@ -404,7 +476,9 @@
     "original_sha256": "d37587a7624b4f0018700aa3eed690bbc86f6f72573b553587c007dbc5f885e0",
     "original_size": 53325072,
     "defang_restore_first4_hex": "4d5a5000",
-    "archive": "brand_surge_win_DEFANGED.zip"
+    "archive": "brand_surge_win_SECURE.zip",
+    "public_analysis": "analysis/brand_surge_win.json",
+    "neutralization": "header-defang + AES-256 (undisclosed pw); public=analysis-only"
   },
   {
     "label": "brand_turbo_win",
@@ -415,7 +489,9 @@
     "original_sha256": "76af3d2f6837cc2f1ac230beae9f47eed323e1f88b20612db77723cbff2f635f",
     "original_size": 53267008,
     "defang_restore_first4_hex": "4d5a5000",
-    "archive": "brand_turbo_win_DEFANGED.zip"
+    "archive": "brand_turbo_win_SECURE.zip",
+    "public_analysis": "analysis/brand_turbo_win.json",
+    "neutralization": "header-defang + AES-256 (undisclosed pw); public=analysis-only"
   },
   {
     "label": "brand_v2rayn_win",
@@ -426,7 +502,9 @@
     "original_sha256": "1f67447e8d1837fe4202a0018e08d10026af7968eb571bb72396f5831a1f12e8",
     "original_size": 53341016,
     "defang_restore_first4_hex": "4d5a5000",
-    "archive": "brand_v2rayn_win_DEFANGED.zip"
+    "archive": "brand_v2rayn_win_SECURE.zip",
+    "public_analysis": "analysis/brand_v2rayn_win.json",
+    "neutralization": "header-defang + AES-256 (undisclosed pw); public=analysis-only"
   },
   {
     "label": "brand_v2rayng_win",
@@ -437,7 +515,9 @@
     "original_sha256": "946bfd946b850e4b19b2455e2a42abda71789901d21546f416f9144bac8a3244",
     "original_size": 53266600,
     "defang_restore_first4_hex": "4d5a5000",
-    "archive": "brand_v2rayng_win_DEFANGED.zip"
+    "archive": "brand_v2rayng_win_SECURE.zip",
+    "public_analysis": "analysis/brand_v2rayng_win.json",
+    "neutralization": "header-defang + AES-256 (undisclosed pw); public=analysis-only"
   },
   {
     "label": "brand_whale_win",
@@ -448,7 +528,9 @@
     "original_sha256": "4a05c1aeb7b0a07fc82b825cac2cb23702a81d58602ccd935711adcbce87895c",
     "original_size": 53381048,
     "defang_restore_first4_hex": "4d5a5000",
-    "archive": "brand_whale_win_DEFANGED.zip"
+    "archive": "brand_whale_win_SECURE.zip",
+    "public_analysis": "analysis/brand_whale_win.json",
+    "neutralization": "header-defang + AES-256 (undisclosed pw); public=analysis-only"
   },
   {
     "label": "brand_xigua_win",
@@ -459,7 +541,9 @@
     "original_sha256": "f621a7a0e3c583c7febc4b2d11f99b47eb873e4a65b109611caa5f846264523c",
     "original_size": 53434888,
     "defang_restore_first4_hex": "4d5a5000",
-    "archive": "brand_xigua_win_DEFANGED.zip"
+    "archive": "brand_xigua_win_SECURE.zip",
+    "public_analysis": "analysis/brand_xigua_win.json",
+    "neutralization": "header-defang + AES-256 (undisclosed pw); public=analysis-only"
   },
   {
     "label": "brand_xunyou_win",
@@ -470,7 +554,9 @@
     "original_sha256": "23d6eb8c5cd330df2997e1e57a423d22f04619ac86c9f47e054e2694f56f10be",
     "original_size": 53310256,
     "defang_restore_first4_hex": "4d5a5000",
-    "archive": "brand_xunyou_win_DEFANGED.zip"
+    "archive": "brand_xunyou_win_SECURE.zip",
+    "public_analysis": "analysis/brand_xunyou_win.json",
+    "neutralization": "header-defang + AES-256 (undisclosed pw); public=analysis-only"
   },
   {
     "label": "brand_yunfan_win",
@@ -481,7 +567,9 @@
     "original_sha256": "a26b1f713bca86d4f89a82911631966500773c3e83d5412a7dc23737fb5cac55",
     "original_size": 53412528,
     "defang_restore_first4_hex": "4d5a5000",
-    "archive": "brand_yunfan_win_DEFANGED.zip"
+    "archive": "brand_yunfan_win_SECURE.zip",
+    "public_analysis": "analysis/brand_yunfan_win.json",
+    "neutralization": "header-defang + AES-256 (undisclosed pw); public=analysis-only"
   },
   {
     "label": "brand_astrill_android",
@@ -492,7 +580,9 @@
     "original_sha256": "015d6c3fb6ef554961bf901f7306c89b5bd093ced816499af9407a1680bbd8d0",
     "original_size": 104503038,
     "defang_restore_first4_hex": "504b0304",
-    "archive": "brand_astrill_android_DEFANGED.zip"
+    "archive": "brand_astrill_android_SECURE.zip",
+    "public_analysis": "analysis/brand_astrill_android.json",
+    "neutralization": "header-defang + AES-256 (undisclosed pw); public=analysis-only"
   },
   {
     "label": "brand_biubiu_android",
@@ -503,7 +593,9 @@
     "original_sha256": "f286549e2dff591d3807eff6d953061f4a9139738b50f0336eff791c055b9e16",
     "original_size": 104501006,
     "defang_restore_first4_hex": "504b0304",
-    "archive": "brand_biubiu_android_DEFANGED.zip"
+    "archive": "brand_biubiu_android_SECURE.zip",
+    "public_analysis": "analysis/brand_biubiu_android.json",
+    "neutralization": "header-defang + AES-256 (undisclosed pw); public=analysis-only"
   },
   {
     "label": "brand_clash_android",
@@ -514,7 +606,9 @@
     "original_sha256": "ea661987575bfd3ffa7d241cb3150d0d52d52f952a60f630ecc71a21211c91cb",
     "original_size": 104457542,
     "defang_restore_first4_hex": "504b0304",
-    "archive": "brand_clash_android_DEFANGED.zip"
+    "archive": "brand_clash_android_SECURE.zip",
+    "public_analysis": "analysis/brand_clash_android.json",
+    "neutralization": "header-defang + AES-256 (undisclosed pw); public=analysis-only"
   },
   {
     "label": "brand_express_android",
@@ -525,7 +619,9 @@
     "original_sha256": "7e23a043e8bd92ea2711298274954df309b94ba0b83b00b7a5124beb08271cb1",
     "original_size": 104485270,
     "defang_restore_first4_hex": "504b0304",
-    "archive": "brand_express_android_DEFANGED.zip"
+    "archive": "brand_express_android_SECURE.zip",
+    "public_analysis": "analysis/brand_express_android.json",
+    "neutralization": "header-defang + AES-256 (undisclosed pw); public=analysis-only"
   },
   {
     "label": "brand_fox_android",
@@ -536,7 +632,9 @@
     "original_sha256": "585486427554eca414b53206e5beeb37712a9408209db034887b88c8592611dc",
     "original_size": 104499034,
     "defang_restore_first4_hex": "504b0304",
-    "archive": "brand_fox_android_DEFANGED.zip"
+    "archive": "brand_fox_android_SECURE.zip",
+    "public_analysis": "analysis/brand_fox_android.json",
+    "neutralization": "header-defang + AES-256 (undisclosed pw); public=analysis-only"
   },
   {
     "label": "brand_lantern_android",
@@ -547,7 +645,9 @@
     "original_sha256": "06dd7352c339cff4b1c4b6907e319d3c9e20fa54cddfea4df3c51252623a88a3",
     "original_size": 104522466,
     "defang_restore_first4_hex": "504b0304",
-    "archive": "brand_lantern_android_DEFANGED.zip"
+    "archive": "brand_lantern_android_SECURE.zip",
+    "public_analysis": "analysis/brand_lantern_android.json",
+    "neutralization": "header-defang + AES-256 (undisclosed pw); public=analysis-only"
   },
   {
     "label": "brand_nord_android",
@@ -558,7 +658,9 @@
     "original_sha256": "f952bcc37506b5362cbe498ebec2ffc4701535775006e8748c2012ec9ae3fcf2",
     "original_size": 104473378,
     "defang_restore_first4_hex": "504b0304",
-    "archive": "brand_nord_android_DEFANGED.zip"
+    "archive": "brand_nord_android_SECURE.zip",
+    "public_analysis": "analysis/brand_nord_android.json",
+    "neutralization": "header-defang + AES-256 (undisclosed pw); public=analysis-only"
   },
   {
     "label": "brand_panda_android",
@@ -569,7 +671,9 @@
     "original_sha256": "ea550c966189a6cdbc3eac61510b1517839714bca9fcc1d869ca0c88f54d6f81",
     "original_size": 104491850,
     "defang_restore_first4_hex": "504b0304",
-    "archive": "brand_panda_android_DEFANGED.zip"
+    "archive": "brand_panda_android_SECURE.zip",
+    "public_analysis": "analysis/brand_panda_android.json",
+    "neutralization": "header-defang + AES-256 (undisclosed pw); public=analysis-only"
   },
   {
     "label": "brand_ssr_android",
@@ -580,7 +684,9 @@
     "original_sha256": "b02706b60be2a74cfa365c2620cbf41c7d121cc9c8709aa9cc505bb838e50512",
     "original_size": 104496226,
     "defang_restore_first4_hex": "504b0304",
-    "archive": "brand_ssr_android_DEFANGED.zip"
+    "archive": "brand_ssr_android_SECURE.zip",
+    "public_analysis": "analysis/brand_ssr_android.json",
+    "neutralization": "header-defang + AES-256 (undisclosed pw); public=analysis-only"
   },
   {
     "label": "brand_surfshark_android",
@@ -591,7 +697,9 @@
     "original_sha256": "5c42e7598d3f6897b4212e75ef8ca85806e82e5960446c89316b99012f71ee2d",
     "original_size": 104482890,
     "defang_restore_first4_hex": "504b0304",
-    "archive": "brand_surfshark_android_DEFANGED.zip"
+    "archive": "brand_surfshark_android_SECURE.zip",
+    "public_analysis": "analysis/brand_surfshark_android.json",
+    "neutralization": "header-defang + AES-256 (undisclosed pw); public=analysis-only"
   },
   {
     "label": "brand_v2rayn_android",
@@ -602,7 +710,9 @@
     "original_sha256": "9cf2c9cb89d25b83e26edc887a794057969b101b74e7bc563725faf411a10c3b",
     "original_size": 104478446,
     "defang_restore_first4_hex": "504b0304",
-    "archive": "brand_v2rayn_android_DEFANGED.zip"
+    "archive": "brand_v2rayn_android_SECURE.zip",
+    "public_analysis": "analysis/brand_v2rayn_android.json",
+    "neutralization": "header-defang + AES-256 (undisclosed pw); public=analysis-only"
   },
   {
     "label": "brand_xunyou_android",
@@ -613,7 +723,9 @@
     "original_sha256": "0acd3293fab55c950cef5e5b30dec6b1b3c68014b87bdb737d25967601a37f1e",
     "original_size": 104465222,
     "defang_restore_first4_hex": "504b0304",
-    "archive": "brand_xunyou_android_DEFANGED.zip"
+    "archive": "brand_xunyou_android_SECURE.zip",
+    "public_analysis": "analysis/brand_xunyou_android.json",
+    "neutralization": "header-defang + AES-256 (undisclosed pw); public=analysis-only"
   },
   {
     "label": "fxquickq_nextgen_kuailian_win",
@@ -624,7 +736,9 @@
     "original_sha256": "b1f21f45a84d7c0b94d7fd92a12a230f9aa129c7213673cd254f42a7a30e1929",
     "original_size": 106740388,
     "defang_restore_first4_hex": "4d5a5000",
-    "archive": "fxquickq_nextgen_kuailian_win_DEFANGED.zip"
+    "archive": "fxquickq_nextgen_kuailian_win_SECURE.zip",
+    "public_analysis": "analysis/fxquickq_nextgen_kuailian_win.json",
+    "neutralization": "header-defang + AES-256 (undisclosed pw); public=analysis-only"
   },
   {
     "label": "fxquickq_type-quickq_zip",
@@ -635,7 +749,9 @@
     "original_sha256": "32431623e22c82e1ecf7f0fe693d98b8c804d5aef9e696915a4f18b875cd5afe",
     "original_size": 126403977,
     "defang_restore_first4_hex": "504b0304",
-    "archive": "fxquickq_type-quickq_zip_DEFANGED.zip"
+    "archive": "fxquickq_type-quickq_zip_SECURE.zip",
+    "public_analysis": "analysis/fxquickq_type-quickq_zip.json",
+    "neutralization": "header-defang + AES-256 (undisclosed pw); public=analysis-only"
   },
   {
     "label": "fxquickq_type-clash_ClashVerge_zip",
@@ -646,7 +762,9 @@
     "original_sha256": "4b91395ca4ceae702d0426b74a965c7c95ebdc7fc5651413690a0f7069258e05",
     "original_size": 49383457,
     "defang_restore_first4_hex": "504b0304",
-    "archive": "fxquickq_type-clash_ClashVerge_zip_DEFANGED.zip"
+    "archive": "fxquickq_type-clash_ClashVerge_zip_SECURE.zip",
+    "public_analysis": "analysis/fxquickq_type-clash_ClashVerge_zip.json",
+    "neutralization": "header-defang + AES-256 (undisclosed pw); public=analysis-only"
   },
   {
     "label": "yunyin_win",
@@ -657,7 +775,9 @@
     "original_sha256": "5f89011ea449f0ecff9f0961d6c58e3e5573ce9868cc39bb2ce31b86c332bb85",
     "original_size": 27860311,
     "defang_restore_first4_hex": "4d5a9000",
-    "archive": "yunyin_win_DEFANGED.zip"
+    "archive": "yunyin_win_SECURE.zip",
+    "public_analysis": "analysis/yunyin_win.json",
+    "neutralization": "header-defang + AES-256 (undisclosed pw); public=analysis-only"
   },
   {
     "label": "quickq_android",
@@ -668,7 +788,9 @@
     "original_sha256": "6bc96e6f5d7665b8da629e9e1427c432876b74a692419d47a01e8d20c14969a5",
     "original_size": 104490858,
     "defang_restore_first4_hex": "504b0304",
-    "archive": "quickq_android_DEFANGED.zip"
+    "archive": "quickq_android_SECURE.zip",
+    "public_analysis": "analysis/quickq_android.json",
+    "neutralization": "header-defang + AES-256 (undisclosed pw); public=analysis-only"
   },
   {
     "label": "heibao_android",
@@ -679,7 +801,9 @@
     "original_sha256": "02783b5c590670f3f1902e4f1aa9b98ab86d8c11752eed60a081bd9d99d0a435",
     "original_size": 104548010,
     "defang_restore_first4_hex": "504b0304",
-    "archive": "heibao_android_DEFANGED.zip"
+    "archive": "heibao_android_SECURE.zip",
+    "public_analysis": "analysis/heibao_android.json",
+    "neutralization": "header-defang + AES-256 (undisclosed pw); public=analysis-only"
   },
   {
     "label": "yunyin_android",
@@ -690,7 +814,9 @@
     "original_sha256": "ff2d310e0661904e74bf734e5d655cd623bb631c0a2b91a6256891df17966298",
     "original_size": 36118430,
     "defang_restore_first4_hex": "504b0304",
-    "archive": "yunyin_android_DEFANGED.zip"
+    "archive": "yunyin_android_SECURE.zip",
+    "public_analysis": "analysis/yunyin_android.json",
+    "neutralization": "header-defang + AES-256 (undisclosed pw); public=analysis-only"
   },
   {
     "label": "yunyin_clashverge_macos",
@@ -701,7 +827,9 @@
     "original_sha256": "4fcfb015842029c35a200eddbf53d70e82e5ad522dd3f13aeba30426a9af4535",
     "original_size": 46401189,
     "defang_restore_first4_hex": "78da6360",
-    "archive": "yunyin_clashverge_macos_DEFANGED.zip"
+    "archive": "yunyin_clashverge_macos_SECURE.zip",
+    "public_analysis": "analysis/yunyin_clashverge_macos.json",
+    "neutralization": "header-defang + AES-256 (undisclosed pw); public=analysis-only"
   },
   {
     "label": "lure_minecraft_win",
@@ -712,7 +840,9 @@
     "original_sha256": "23f812d2b3aa3ce8d8e1ebc00be69d27b35cbea4ee45eb4603d7aba258057b56",
     "original_size": 53385736,
     "defang_restore_first4_hex": "4d5a5000",
-    "archive": "lure_minecraft_win_DEFANGED.zip"
+    "archive": "lure_minecraft_win_SECURE.zip",
+    "public_analysis": "analysis/lure_minecraft_win.json",
+    "neutralization": "header-defang + AES-256 (undisclosed pw); public=analysis-only"
   },
   {
     "label": "lure_genshin_win",
@@ -723,7 +853,9 @@
     "original_sha256": "6b39bc2cdc0a5a67d96259dcd23e05cfc6878f0cd899adba57e7311b3d054e3e",
     "original_size": 53442232,
     "defang_restore_first4_hex": "4d5a5000",
-    "archive": "lure_genshin_win_DEFANGED.zip"
+    "archive": "lure_genshin_win_SECURE.zip",
+    "public_analysis": "analysis/lure_genshin_win.json",
+    "neutralization": "header-defang + AES-256 (undisclosed pw); public=analysis-only"
   },
   {
     "label": "lure_discord_win",
@@ -734,7 +866,9 @@
     "original_sha256": "6b3d942cd70e77de4a034eaed8d2109c2403b3814f7a152cafd8620c0886ec07",
     "original_size": 53352672,
     "defang_restore_first4_hex": "4d5a5000",
-    "archive": "lure_discord_win_DEFANGED.zip"
+    "archive": "lure_discord_win_SECURE.zip",
+    "public_analysis": "analysis/lure_discord_win.json",
+    "neutralization": "header-defang + AES-256 (undisclosed pw); public=analysis-only"
   },
   {
     "label": "lure_pojieban_win",
@@ -745,7 +879,9 @@
     "original_sha256": "b088e3e697e9fe55c49b28e2cf524cc6056c441b97712f745114aaf153900a6d",
     "original_size": 53404352,
     "defang_restore_first4_hex": "4d5a5000",
-    "archive": "lure_pojieban_win_DEFANGED.zip"
+    "archive": "lure_pojieban_win_SECURE.zip",
+    "public_analysis": "analysis/lure_pojieban_win.json",
+    "neutralization": "header-defang + AES-256 (undisclosed pw); public=analysis-only"
   },
   {
     "label": "lure_haoyong_win",
@@ -756,7 +892,9 @@
     "original_sha256": "a5287d3613785ae622d48d8aec5293241d01bdbe4eebf2898a93cdb42e1744bd",
     "original_size": 53427200,
     "defang_restore_first4_hex": "4d5a5000",
-    "archive": "lure_haoyong_win_DEFANGED.zip"
+    "archive": "lure_haoyong_win_SECURE.zip",
+    "public_analysis": "analysis/lure_haoyong_win.json",
+    "neutralization": "header-defang + AES-256 (undisclosed pw); public=analysis-only"
   },
   {
     "label": "brandB-oldgen_cham_win",
@@ -767,7 +905,9 @@
     "original_sha256": "c85039aaa58fe26d8e1b2d7b20515894c0c7d3feee4f9aef94a764d710336be1",
     "original_size": 38932624,
     "defang_restore_first4_hex": "4d5a5000",
-    "archive": "brandB-oldgen_cham_win_DEFANGED.zip"
+    "archive": "brandB-oldgen_cham_win_SECURE.zip",
+    "public_analysis": "analysis/brandB-oldgen_cham_win.json",
+    "neutralization": "header-defang + AES-256 (undisclosed pw); public=analysis-only"
   },
   {
     "label": "brandB-oldgen_ahaspeed_win",
@@ -778,7 +918,9 @@
     "original_sha256": "531a9843d18e1ca6ee583e564fd6575a2c20f27a244fd8744fc5c7318a1d37df",
     "original_size": 39929248,
     "defang_restore_first4_hex": "4d5a5000",
-    "archive": "brandB-oldgen_ahaspeed_win_DEFANGED.zip"
+    "archive": "brandB-oldgen_ahaspeed_win_SECURE.zip",
+    "public_analysis": "analysis/brandB-oldgen_ahaspeed_win.json",
+    "neutralization": "header-defang + AES-256 (undisclosed pw); public=analysis-only"
   },
   {
     "label": "brandB_heibao_macos_pkg",
@@ -789,7 +931,9 @@
     "original_sha256": "94367c810e2187612583ce07448553eee777a3e94e1a48240597222bd149fdac",
     "original_size": 70458743,
     "defang_restore_first4_hex": "78617221",
-    "archive": "brandB_heibao_macos_pkg_DEFANGED.zip"
+    "archive": "brandB_heibao_macos_pkg_SECURE.zip",
+    "public_analysis": "analysis/brandB_heibao_macos_pkg.json",
+    "neutralization": "header-defang + AES-256 (undisclosed pw); public=analysis-only"
   },
   {
     "label": "ratline_valleyrat_395cad56",
@@ -800,7 +944,9 @@
     "original_sha256": "395cad56cd4a16bb695ee014321f5828ec9147a0b605da26b87950afcb5aee6b",
     "original_size": 161792,
     "defang_restore_first4_hex": "4d5a9000",
-    "archive": "ratline_valleyrat_395cad56_DEFANGED.zip"
+    "archive": "ratline_valleyrat_395cad56_SECURE.zip",
+    "public_analysis": "analysis/ratline_valleyrat_395cad56.json",
+    "neutralization": "header-defang + AES-256 (undisclosed pw); public=analysis-only"
   },
   {
     "label": "ratline_valleyrat_35d37575",
@@ -811,7 +957,9 @@
     "original_sha256": "35d37575d85e16cfbb406a3f45dbb81740e736fbb388363e984176a33d13f462",
     "original_size": 161792,
     "defang_restore_first4_hex": "4d5a9000",
-    "archive": "ratline_valleyrat_35d37575_DEFANGED.zip"
+    "archive": "ratline_valleyrat_35d37575_SECURE.zip",
+    "public_analysis": "analysis/ratline_valleyrat_35d37575.json",
+    "neutralization": "header-defang + AES-256 (undisclosed pw); public=analysis-only"
   },
   {
     "label": "ratline_atlascross_eb96ca17",
@@ -822,7 +970,9 @@
     "original_sha256": "eb96ca17a4a1c2aa97dd6fb686a40cb226c49c8abec01190f1af75080a9aaa6b",
     "original_size": 6600192,
     "defang_restore_first4_hex": "4d5a7800",
-    "archive": "ratline_atlascross_eb96ca17_DEFANGED.zip"
+    "archive": "ratline_atlascross_eb96ca17_SECURE.zip",
+    "public_analysis": "analysis/ratline_atlascross_eb96ca17.json",
+    "neutralization": "header-defang + AES-256 (undisclosed pw); public=analysis-only"
   },
   {
     "label": "ratline_atlascross_f3f0c873",
@@ -833,7 +983,9 @@
     "original_sha256": "f3f0c87303fcc19aae446de0ff80560e09fdc1fc4b20b3dd442871b2544c5c7d",
     "original_size": 9864192,
     "defang_restore_first4_hex": "4d5a9000",
-    "archive": "ratline_atlascross_f3f0c873_DEFANGED.zip"
+    "archive": "ratline_atlascross_f3f0c873_SECURE.zip",
+    "public_analysis": "analysis/ratline_atlascross_f3f0c873.json",
+    "neutralization": "header-defang + AES-256 (undisclosed pw); public=analysis-only"
   },
   {
     "label": "ratline_gh0st-hupigon_730e1337",
@@ -844,7 +996,9 @@
     "original_sha256": "730e1337cf9ecf842a965ea458ee241c2a1e5b0ef1daccde87cd628eb4b37057",
     "original_size": 721920,
     "defang_restore_first4_hex": "4d5a5000",
-    "archive": "ratline_gh0st-hupigon_730e1337_DEFANGED.zip"
+    "archive": "ratline_gh0st-hupigon_730e1337_SECURE.zip",
+    "public_analysis": "analysis/ratline_gh0st-hupigon_730e1337.json",
+    "neutralization": "header-defang + AES-256 (undisclosed pw); public=analysis-only"
   },
   {
     "label": "ratline_blackmoon_445",
@@ -855,7 +1009,9 @@
     "original_sha256": "9639cee431b29fbf751542a966359a4c8ded820184b279ca0a03ac2041208333",
     "original_size": 165888,
     "defang_restore_first4_hex": "4d5a9000",
-    "archive": "ratline_blackmoon_445_DEFANGED.zip"
+    "archive": "ratline_blackmoon_445_SECURE.zip",
+    "public_analysis": "analysis/ratline_blackmoon_445.json",
+    "neutralization": "header-defang + AES-256 (undisclosed pw); public=analysis-only"
   },
   {
     "label": "ratline_blackmoon_TQ",
@@ -866,7 +1022,9 @@
     "original_sha256": "5d87bd723f8267c3c0bef75f2b502321c518ac6a09696f3971ace53d0ba505cd",
     "original_size": 265216,
     "defang_restore_first4_hex": "4d5a9000",
-    "archive": "ratline_blackmoon_TQ_DEFANGED.zip"
+    "archive": "ratline_blackmoon_TQ_SECURE.zip",
+    "public_analysis": "analysis/ratline_blackmoon_TQ.json",
+    "neutralization": "header-defang + AES-256 (undisclosed pw); public=analysis-only"
   },
   {
     "label": "ratline_gh0st_wangkelong",
@@ -877,7 +1035,9 @@
     "original_sha256": "76d0b8d787b5c68ab355e7adaff12464fd14386c261e703a504f4fa5b77b6e8d",
     "original_size": 12800,
     "defang_restore_first4_hex": "4d5a9000",
-    "archive": "ratline_gh0st_wangkelong_DEFANGED.zip"
+    "archive": "ratline_gh0st_wangkelong_SECURE.zip",
+    "public_analysis": "analysis/ratline_gh0st_wangkelong.json",
+    "neutralization": "header-defang + AES-256 (undisclosed pw); public=analysis-only"
   },
   {
     "label": "ratline_winos4_plugin1",
@@ -888,7 +1048,9 @@
     "original_sha256": "dffa09f3948de1576fb7e2d3a8f0c88f17b73011b8f7c1714a4d9cfaf116cb32",
     "original_size": 9262224,
     "defang_restore_first4_hex": "19d70e87",
-    "archive": "ratline_winos4_plugin1_DEFANGED.zip"
+    "archive": "ratline_winos4_plugin1_SECURE.zip",
+    "public_analysis": "analysis/ratline_winos4_plugin1.json",
+    "neutralization": "header-defang + AES-256 (undisclosed pw); public=analysis-only"
   },
   {
     "label": "ratline_winos4_plugin2",
@@ -899,7 +1061,9 @@
     "original_sha256": "e1416635514d74ec8b143b256386dd442c77386b3162fe5fe141319eda99dabb",
     "original_size": 22736640,
     "defang_restore_first4_hex": "25ee6f4d",
-    "archive": "ratline_winos4_plugin2_DEFANGED.zip"
+    "archive": "ratline_winos4_plugin2_SECURE.zip",
+    "public_analysis": "analysis/ratline_winos4_plugin2.json",
+    "neutralization": "header-defang + AES-256 (undisclosed pw); public=analysis-only"
   },
   {
     "label": "ratline_winos4_plugin3",
@@ -910,7 +1074,9 @@
     "original_sha256": "b73c616f4c83334dacc96e4d54c9ce6544f7c4f677515ee306ad0cb5acc8093f",
     "original_size": 2355928,
     "defang_restore_first4_hex": "61554b45",
-    "archive": "ratline_winos4_plugin3_DEFANGED.zip"
+    "archive": "ratline_winos4_plugin3_SECURE.zip",
+    "public_analysis": "analysis/ratline_winos4_plugin3.json",
+    "neutralization": "header-defang + AES-256 (undisclosed pw); public=analysis-only"
   },
   {
     "label": "ratline_farfli_59b65b4f",
@@ -921,7 +1087,9 @@
     "original_sha256": "59b65b4f5058e38b42ec3fe79c5f05b4c29a61d00ddc6052bbbf074c99f75fef",
     "original_size": 674816,
     "defang_restore_first4_hex": "4d5a5000",
-    "archive": "ratline_farfli_59b65b4f_DEFANGED.zip"
+    "archive": "ratline_farfli_59b65b4f_SECURE.zip",
+    "public_analysis": "analysis/ratline_farfli_59b65b4f.json",
+    "neutralization": "header-defang + AES-256 (undisclosed pw); public=analysis-only"
   },
   {
     "label": "ratline_farfli_929cf7a1",
@@ -932,7 +1100,9 @@
     "original_sha256": "929cf7a15968a4e38eccb852a72874d58c3962f52dcac97cc69b5a6aa113c2d4",
     "original_size": 282624,
     "defang_restore_first4_hex": "4d5a9000",
-    "archive": "ratline_farfli_929cf7a1_DEFANGED.zip"
+    "archive": "ratline_farfli_929cf7a1_SECURE.zip",
+    "public_analysis": "analysis/ratline_farfli_929cf7a1.json",
+    "neutralization": "header-defang + AES-256 (undisclosed pw); public=analysis-only"
   },
   {
     "label": "ratline_farfli_c99172fc",
@@ -943,7 +1113,9 @@
     "original_sha256": "c99172fcbc60cc2ea59fd7b59cc594c4d7653187d995d29f66bfd94185a479fc",
     "original_size": 288234,
     "defang_restore_first4_hex": "4d5a0000",
-    "archive": "ratline_farfli_c99172fc_DEFANGED.zip"
+    "archive": "ratline_farfli_c99172fc_SECURE.zip",
+    "public_analysis": "analysis/ratline_farfli_c99172fc.json",
+    "neutralization": "header-defang + AES-256 (undisclosed pw); public=analysis-only"
   },
   {
     "label": "ratline_farfli_3776cfbf",
@@ -954,7 +1126,9 @@
     "original_sha256": "3776cfbfb90c8e78ec7a6b55a8a37e3ea918ac3caa7065e432271f5054d6688f",
     "original_size": 288607,
     "defang_restore_first4_hex": "4d5a0000",
-    "archive": "ratline_farfli_3776cfbf_DEFANGED.zip"
+    "archive": "ratline_farfli_3776cfbf_SECURE.zip",
+    "public_analysis": "analysis/ratline_farfli_3776cfbf.json",
+    "neutralization": "header-defang + AES-256 (undisclosed pw); public=analysis-only"
   },
   {
     "label": "ratline_ioc_299e6791",
@@ -965,7 +1139,9 @@
     "original_sha256": "299e6791e4eb85617c4fab7f27ac53fb70cd038671f011007831b558c318b369",
     "original_size": 1756160,
     "defang_restore_first4_hex": "4d5a9000",
-    "archive": "ratline_ioc_299e6791_DEFANGED.zip"
+    "archive": "ratline_ioc_299e6791_SECURE.zip",
+    "public_analysis": "analysis/ratline_ioc_299e6791.json",
+    "neutralization": "header-defang + AES-256 (undisclosed pw); public=analysis-only"
   },
   {
     "label": "ratline_ioc_491872a5",
@@ -976,6 +1152,8 @@
     "original_sha256": "491872a50b8db56d6a5ef1ccabe8702fb7763da4fd3b474d20ae0c98969acfe5",
     "original_size": 23584768,
     "defang_restore_first4_hex": "d0cf11e0",
-    "archive": "ratline_ioc_491872a5_DEFANGED.zip"
+    "archive": "ratline_ioc_491872a5_SECURE.zip",
+    "public_analysis": "analysis/ratline_ioc_491872a5.json",
+    "neutralization": "header-defang + AES-256 (undisclosed pw); public=analysis-only"
   }
 ]
