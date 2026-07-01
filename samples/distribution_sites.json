@@ -1,0 +1,314 @@
+{
+  "generated": "2026-07-01",
+  "campaign": "MAL-2026-0301-QUICKQ",
+  "note": "Live lookalike/typosquat domains resolving during 2026-07-01 sweep",
+  "pow_distribution_sites": [
+    "down.fx-quickq.com.cn",
+    "down.quickqvpn.com",
+    "kuailian.io",
+    "letevpn.world"
+  ],
+  "direct_download_backends": [
+    "dl.awsdl.com",
+    "www.awsdl.com",
+    "cdn.awsdl.xyz",
+    "s3.daliaohengsheng.com"
+  ],
+  "resolving_domains": [
+    {
+      "domain": "bestquickq.com",
+      "ip": "172.67.148.198",
+      "status": "resolves_no_pow"
+    },
+    {
+      "domain": "down.kuailian.cn",
+      "ip": "8.218.137.223",
+      "status": "resolves_no_pow"
+    },
+    {
+      "domain": "down.kuailian.com",
+      "ip": "47.76.62.167",
+      "status": "resolves_no_pow"
+    },
+    {
+      "domain": "down.quick-q.com",
+      "ip": "172.67.193.217",
+      "status": "resolves_no_pow"
+    },
+    {
+      "domain": "down.quickq.app",
+      "ip": "35.188.87.127",
+      "status": "resolves_no_pow"
+    },
+    {
+      "domain": "down.quickq.top",
+      "ip": "172.67.136.25",
+      "status": "resolves_no_pow"
+    },
+    {
+      "domain": "down.quickq.xyz",
+      "ip": "76.223.54.146",
+      "status": "resolves_no_pow"
+    },
+    {
+      "domain": "down.quickqpro.com",
+      "ip": "104.21.1.61",
+      "status": "resolves_no_pow"
+    },
+    {
+      "domain": "down.quickqvpn.com",
+      "ip": "103.224.182.249",
+      "status": "HTTP200"
+    },
+    {
+      "domain": "fastquickq.com",
+      "ip": "104.21.16.16",
+      "status": "resolves_no_pow"
+    },
+    {
+      "domain": "kuailian.app",
+      "ip": "104.26.5.107",
+      "status": "resolves_no_pow"
+    },
+    {
+      "domain": "kuailian.cn",
+      "ip": "8.218.137.223",
+      "status": "resolves_no_pow"
+    },
+    {
+      "domain": "kuailian.com",
+      "ip": "47.76.62.167",
+      "status": "resolves_no_pow"
+    },
+    {
+      "domain": "kuailian.com.cn",
+      "ip": "54.179.117.50",
+      "status": "resolves_no_pow"
+    },
+    {
+      "domain": "kuailian.io",
+      "ip": "15.197.148.33",
+      "status": "HTTP200"
+    },
+    {
+      "domain": "kuailian.vip",
+      "ip": "172.67.214.56",
+      "status": "resolves_no_pow"
+    },
+    {
+      "domain": "kuailian.xyz",
+      "ip": "43.255.158.99",
+      "status": "HTTP200"
+    },
+    {
+      "domain": "lestvpn.com",
+      "ip": "172.65.211.209",
+      "status": "resolves_no_pow"
+    },
+    {
+      "domain": "letevpn.world",
+      "ip": "216.245.197.44",
+      "status": "HTTP200"
+    },
+    {
+      "domain": "letsvpn.world",
+      "ip": "99.84.118.82",
+      "status": "resolves_no_pow"
+    },
+    {
+      "domain": "myquickq.com",
+      "ip": "52.44.8.255",
+      "status": "resolves_no_pow"
+    },
+    {
+      "domain": "myquickq.com.cn",
+      "ip": "156.239.105.123",
+      "status": "resolves_no_pow"
+    },
+    {
+      "domain": "quick-q.cn",
+      "ip": "152.32.232.185",
+      "status": "resolves_no_pow"
+    },
+    {
+      "domain": "quick-q.com",
+      "ip": "104.21.60.73",
+      "status": "resolves_no_pow"
+    },
+    {
+      "domain": "quickq-cn.com",
+      "ip": "104.21.93.106",
+      "status": "HTTP200"
+    },
+    {
+      "domain": "quickq-vpn.app",
+      "ip": "172.67.217.14",
+      "status": "resolves_no_pow"
+    },
+    {
+      "domain": "quickq-vpn.cn",
+      "ip": "104.21.51.32",
+      "status": "resolves_no_pow"
+    },
+    {
+      "domain": "quickq-vpn.com.cn",
+      "ip": "104.21.81.121",
+      "status": "HTTP200"
+    },
+    {
+      "domain": "quickq-vpn.net",
+      "ip": "104.21.10.216",
+      "status": "resolves_no_pow"
+    },
+    {
+      "domain": "quickq-vpn.xyz",
+      "ip": "38.11.38.146",
+      "status": "resolves_no_pow"
+    },
+    {
+      "domain": "quickq.app",
+      "ip": "35.188.87.127",
+      "status": "resolves_no_pow"
+    },
+    {
+      "domain": "quickq.com",
+      "ip": "50.87.147.144",
+      "status": "resolves_no_pow"
+    },
+    {
+      "domain": "quickq.com.cn",
+      "ip": "103.251.236.211",
+      "status": "resolves_no_pow"
+    },
+    {
+      "domain": "quickq.io",
+      "ip": "172.67.171.199",
+      "status": "HTTP200"
+    },
+    {
+      "domain": "quickq.net",
+      "ip": "97.74.215.10",
+      "status": "resolves_no_pow"
+    },
+    {
+      "domain": "quickq.top",
+      "ip": "104.21.86.189",
+      "status": "resolves_no_pow"
+    },
+    {
+      "domain": "quickq.vip",
+      "ip": "172.67.194.77",
+      "status": "resolves_no_pow"
+    },
+    {
+      "domain": "quickq.world",
+      "ip": "72.167.142.220",
+      "status": "resolves_no_pow"
+    },
+    {
+      "domain": "quickq.xyz",
+      "ip": "76.223.54.146",
+      "status": "HTTP200"
+    },
+    {
+      "domain": "quickqapp.cn",
+      "ip": "137.220.155.239",
+      "status": "resolves_no_pow"
+    },
+    {
+      "domain": "quickqapp.com",
+      "ip": "104.21.71.87",
+      "status": "resolves_no_pow"
+    },
+    {
+      "domain": "quickqapp.com.cn",
+      "ip": "172.67.208.211",
+      "status": "resolves_no_pow"
+    },
+    {
+      "domain": "quickqapp.net",
+      "ip": "104.21.56.53",
+      "status": "resolves_no_pow"
+    },
+    {
+      "domain": "quickqcn.com",
+      "ip": "104.21.33.50",
+      "status": "resolves_no_pow"
+    },
+    {
+      "domain": "quickqcn.com.cn",
+      "ip": "172.67.213.207",
+      "status": "resolves_no_pow"
+    },
+    {
+      "domain": "quickqd.com",
+      "ip": "172.67.140.66",
+      "status": "resolves_no_pow"
+    },
+    {
+      "domain": "quickqgo.com",
+      "ip": "104.21.20.118",
+      "status": "resolves_no_pow"
+    },
+    {
+      "domain": "quickqgo.com.cn",
+      "ip": "104.21.38.199",
+      "status": "resolves_no_pow"
+    },
+    {
+      "domain": "quickqi.com",
+      "ip": "104.21.22.204",
+      "status": "resolves_no_pow"
+    },
+    {
+      "domain": "quickqpro.cn",
+      "ip": "172.67.163.209",
+      "status": "resolves_no_pow"
+    },
+    {
+      "domain": "quickqpro.com",
+      "ip": "104.21.1.61",
+      "status": "resolves_no_pow"
+    },
+    {
+      "domain": "quickqpro.com.cn",
+      "ip": "203.168.129.179",
+      "status": "resolves_no_pow"
+    },
+    {
+      "domain": "quickqvpn.com",
+      "ip": "103.224.182.249",
+      "status": "HTTP200"
+    },
+    {
+      "domain": "quickqvpn.com.cn",
+      "ip": "104.21.17.237",
+      "status": "HTTP200"
+    },
+    {
+      "domain": "quickqvpn.io",
+      "ip": "172.67.198.102",
+      "status": "resolves_no_pow"
+    },
+    {
+      "domain": "quickqvpn.net",
+      "ip": "104.21.92.248",
+      "status": "resolves_no_pow"
+    },
+    {
+      "domain": "quickqvpn.vip",
+      "ip": "172.67.218.234",
+      "status": "resolves_no_pow"
+    },
+    {
+      "domain": "quickqvpn.xyz",
+      "ip": "104.21.58.10",
+      "status": "resolves_no_pow"
+    },
+    {
+      "domain": "web-quickq.com.cn",
+      "ip": "172.67.190.127",
+      "status": "resolves_no_pow"
+    }
+  ]
+}
