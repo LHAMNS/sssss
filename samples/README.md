@@ -3,7 +3,7 @@
 **报告编号:** MAL-2026-0301-QUICKQ（下一代 + 大规模变体采集）
 **采集日期:** 2026-07-01
 **采集来源:** 直接从活跃分发基础设施在线抓取（PoW 绕过 + SEO CDN 品牌枚举 + 直连下载）
-**样本总数:** **51 个去重样本**（46 Windows exe + 1 Windows zip + 3 Android apk + 1 macOS dmg）
+**样本总数:** 64 个去重样本（46 Windows exe + 15 Android apk + 2 Windows(zip) + 1 macOS dmg，全部 SHA256 互异）
 **关联分析:** 见仓库根目录 `analysis_report.md`
 **完整清单:** 见本目录 `MANIFEST.csv` / `MANIFEST.json`
 **分发站点情报:** 见本目录 `distribution_sites.json`
