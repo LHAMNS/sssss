@@ -845,5 +845,71 @@
     "original_size": 721920,
     "defang_restore_first4_hex": "4d5a5000",
     "archive": "ratline_gh0st-hupigon_730e1337_DEFANGED.zip"
+  },
+  {
+    "label": "ratline_blackmoon_445",
+    "brand": "BlackMoon",
+    "platform": "Windows(RAT)",
+    "packer_or_type": "BlackMoon银行木马本体(伪装jpg,标准端口)",
+    "distribution_url": "http://down.ftp21.cc/445.jpg",
+    "original_sha256": "9639cee431b29fbf751542a966359a4c8ded820184b279ca0a03ac2041208333",
+    "original_size": 165888,
+    "defang_restore_first4_hex": "4d5a9000",
+    "archive": "ratline_blackmoon_445_DEFANGED.zip"
+  },
+  {
+    "label": "ratline_blackmoon_TQ",
+    "brand": "BlackMoon",
+    "platform": "Windows(RAT)",
+    "packer_or_type": "BlackMoon银行木马本体(伪装jpg)",
+    "distribution_url": "http://down.ftp21.cc/TQ.jpg",
+    "original_sha256": "5d87bd723f8267c3c0bef75f2b502321c518ac6a09696f3971ace53d0ba505cd",
+    "original_size": 265216,
+    "defang_restore_first4_hex": "4d5a9000",
+    "archive": "ratline_blackmoon_TQ_DEFANGED.zip"
+  },
+  {
+    "label": "ratline_gh0st_wangkelong",
+    "brand": "Gh0st",
+    "platform": "Windows(RAT)",
+    "packer_or_type": "Gh0st家族(网克隆检测工具中文样本)",
+    "distribution_url": "http://157.185.170.200/...?f=ghost网克隆检测工具.exe",
+    "original_sha256": "76d0b8d787b5c68ab355e7adaff12464fd14386c261e703a504f4fa5b77b6e8d",
+    "original_size": 12800,
+    "defang_restore_first4_hex": "4d5a9000",
+    "archive": "ratline_gh0st_wangkelong_DEFANGED.zip"
+  },
+  {
+    "label": "ratline_winos4_plugin1",
+    "brand": "Winos4.0",
+    "platform": "Windows(RAT)",
+    "packer_or_type": "Winos4.0加密插件1(非MZ=加密载荷)",
+    "distribution_url": "http://165.154.184.75/NEW/plugin1.dll",
+    "original_sha256": "dffa09f3948de1576fb7e2d3a8f0c88f17b73011b8f7c1714a4d9cfaf116cb32",
+    "original_size": 9262224,
+    "defang_restore_first4_hex": "19d70e87",
+    "archive": "ratline_winos4_plugin1_DEFANGED.zip"
+  },
+  {
+    "label": "ratline_winos4_plugin2",
+    "brand": "Winos4.0",
+    "platform": "Windows(RAT)",
+    "packer_or_type": "Winos4.0加密插件2",
+    "distribution_url": "http://165.154.184.75/NEW/plugin2.dll",
+    "original_sha256": "e1416635514d74ec8b143b256386dd442c77386b3162fe5fe141319eda99dabb",
+    "original_size": 22736640,
+    "defang_restore_first4_hex": "25ee6f4d",
+    "archive": "ratline_winos4_plugin2_DEFANGED.zip"
+  },
+  {
+    "label": "ratline_winos4_plugin3",
+    "brand": "Winos4.0",
+    "platform": "Windows(RAT)",
+    "packer_or_type": "Winos4.0加密插件3",
+    "distribution_url": "http://165.154.184.75/NEW/plugin3.dll",
+    "original_sha256": "b73c616f4c83334dacc96e4d54c9ce6544f7c4f677515ee306ad0cb5acc8093f",
+    "original_size": 2355928,
+    "defang_restore_first4_hex": "61554b45",
+    "archive": "ratline_winos4_plugin3_DEFANGED.zip"
   }
 ]
