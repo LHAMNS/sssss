@@ -1,0 +1,88 @@
+# MAL-2026-0301-QUICKQ 网络IOC封禁清单(域名+IP)
+# 用途: 直接导入防火墙/DNS Sink/代理黑名单。以 # 开头为注释。
+# 日期: 2026-07-01  来源: 本案实测 + 公开厂商报告(见 ATTRIBUTION.md / RAT_LINE_IOCS.md)
+
+## ---- 家族A 快连/QuickQ 分发 ----
+down.fx-quickq.com.cn
+fx-quickq.com.cn
+quick-q.com
+
+## ---- 家族B AHAspeed/Cham + awsdl PPI CDN ----
+www.awsdl.com
+awsdl.com
+dl2.awsdl.com
+awsdl.xyz
+ahaspeed.com
+hellocham.com
+jsq888.com
+sqly666.top
+xinguawl.cn
+fdkwl888.com
+
+## ---- 家族C 云隐 loader 后端 ----
+daliaohengsheng.com
+hideyun.com
+
+## ---- 跨家族 nexus (托管DNS, 注册商 Gname) ----
+a.share-dns.com
+b.share-dns.net
+a10.share-dns.com
+b10.share-dns.net
+share-dns.com
+share-dns.net
+
+## ---- 银狐 Silver Fox / AtlasCross 投递 + C2 ----
+quickq-quickq.com
+app-zoom.com
+signal-signal.com
+telegrtam.com.cn
+trezor-trezor.com
+ultraviewer-cn.com
+wwtalk-app.com
+www-surfshark.com
+www-teams.com
+kefubao-pc.com
+eyy-eyy.com
+bifa668.com
+
+## ---- Gh0st 冒牌 (Unit42) ----
+xiaobaituziha.com
+xiazailianjieoss.com
+xiaofeige.icu
+1235saddfs.icu
+yqmqhjgn.com
+djbzdhygj.com
+
+## ---- RONINGLOADER ----
+qaqkongtiao.com
+
+## ==== IP 封禁 ====
+## 银狐 AtlasCross C2
+61.111.250.139
+## Winos4.0 / ValleyRAT C2 (:18852)
+156.251.17.243
+134.122.204.11
+27.124.40.155
+43.226.125.44
+47.238.125.85
+137.220.229.34
+8.210.165.181
+143.92.61.154
+47.86.28.28
+143.92.63.144
+112.213.116.91
+## Winos4.0 (:443)
+103.46.185.44
+202.79.168.211
+27.122.59.71
+202.79.171.133
+## Gh0st 冒牌 (Unit42)
+156.251.25.112
+156.251.25.43
+154.82.84.227
+95.173.197.195
+103.181.134.138
+## 活体分发节点
+103.231.14.104
+165.154.184.75
+157.185.170.200

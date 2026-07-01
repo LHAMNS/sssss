@@ -1,0 +1,37 @@
+title: Winos4.0 / ValleyRAT C2 出站 (:18852 及已知IP)
+id: 8f1c2a13-0301-4a04-b004-winosc2185201
+status: experimental
+description: >
+  Winos4.0/ValleyRAT(Gh0st衍生,常经木马化LetsVPN投递)使用 TCP :18852 与一组
+  香港/阿里云 C2 通信。命中端口或已知IP即高可信。
+references:
+  - MAL-2026-0301-QUICKQ
+  - Rapid7 Winos4.0 / Nextron ValleyRAT
+author: IR-team
+date: 2026/07/01
+logsource:
+  category: firewall
+detection:
+  selection_port:
+    dst_port: 18852
+  selection_ip:
+    dst_ip:
+      - '156.251.17.243'
+      - '134.122.204.11'
+      - '27.124.40.155'
+      - '43.226.125.44'
+      - '47.238.125.85'
+      - '137.220.229.34'
+      - '8.210.165.181'
+      - '143.92.61.154'
+      - '47.86.28.28'
+      - '143.92.63.144'
+      - '112.213.116.91'
+  condition: selection_port or selection_ip
+falsepositives:
+  - 极少;18852 非常见业务端口
+level: high
+tags:
+  - attack.command-and-control
+  - attack.t1071
+  - attack.t1571

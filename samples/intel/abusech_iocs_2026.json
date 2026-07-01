@@ -1,0 +1,1965 @@
+{
+  "FatalRAT": {
+    "query_status": "ok",
+    "count": 50,
+    "samples": [
+      {
+        "sha256": "e1b4c8df3cd7a51d8751b3c3c8b143b5feee7eb1e4c786b4ffecc370a60856ee",
+        "md5": "14bf08c29163fc92f0c1578e457f09e4",
+        "imphash": "9b201090749bae06a761156dbad9c4f1",
+        "file_name": "e1b4c8df3cd7a51d8751b3c3c8b143b5feee7eb1e4c78.exe",
+        "file_type": "exe",
+        "size": 3514368,
+        "sig": "FatalRAT",
+        "first_seen": "2026-04-08 00:50:16",
+        "reporter": "abuse_ch",
+        "tags": [
+          "exe",
+          "FatalRAT"
+        ],
+        "vendor_intel_c2": null
+      },
+      {
+        "sha256": "15582577479f182cc373f67436ca607fc39138762894adae4da0c2136aeac496",
+        "md5": "013d0d5a9f0748c6b3cc325799a46ce2",
+        "imphash": "6c306e45fa9f977a2f45c8a08df084d5",
+        "file_name": "013d0d5a9f0748c6b3cc325799a46ce2.exe",
+        "file_type": "exe",
+        "size": 196608,
+        "sig": "FatalRAT",
+        "first_seen": "2026-03-24 09:11:23",
+        "reporter": "abuse_ch",
+        "tags": [
+          "exe",
+          "FatalRAT"
+        ],
+        "vendor_intel_c2": null
+      },
+      {
+        "sha256": "c796d4b14d6cd27b2bcf3db13677c824b0d7eb4a133567a4fe6e40b4e35b33a4",
+        "md5": "10771b24bcc3aae9e8c630d3a53a7b9d",
+        "imphash": "5e5e0516b9cb49f396b0ce208c8bee82",
+        "file_name": "10771b24bcc3aae9e8c630d3a53a7b9d.exe",
+        "file_type": "exe",
+        "size": 192568,
+        "sig": "FatalRAT",
+        "first_seen": "2026-03-20 03:16:22",
+        "reporter": "abuse_ch",
+        "tags": [
+          "exe",
+          "FatalRAT"
+        ],
+        "vendor_intel_c2": null
+      },
+      {
+        "sha256": "d477cac8cead223e8670770c6c0da5a441d7497d362db56c845a4f97c2905a9f",
+        "md5": "1024810f4352b3dc145f509ca427b980",
+        "imphash": "5e5e0516b9cb49f396b0ce208c8bee82",
+        "file_name": "1024810f4352b3dc145f509ca427b980.exe",
+        "file_type": "exe",
+        "size": 192568,
+        "sig": "FatalRAT",
+        "first_seen": "2026-03-20 03:16:13",
+        "reporter": "abuse_ch",
+        "tags": [
+          "exe",
+          "FatalRAT"
+        ],
+        "vendor_intel_c2": null
+      },
+      {
+        "sha256": "958634f5699c996ebe6ec331b5421580ae1eba5fbc55da387fdfee04ecc702bd",
+        "md5": "1c17856ddd5c59cb88a2f4bc077de872",
+        "imphash": "8ae571e62a3de0944af5f9fc8966bc7c",
+        "file_name": "猪猪音频调试工具箱.exe",
+        "file_type": "exe",
+        "size": 50982400,
+        "sig": "XRed",
+        "first_seen": "2026-02-21 05:19:12",
+        "reporter": "CNGaoLing",
+        "tags": [
+          "DarkKomet",
+          "exe",
+          "FatalRAT",
+          "gh0st",
+          "Patched",
+          "Trojan:Win32/FatalRAT.RDA!MTB",
+          "xred",
+          "Zegost"
+        ],
+        "vendor_intel_c2": null
+      },
+      {
+        "sha256": "3f30eb517d144720c9ff76b22b67f24888963f550e4b2ee86a9db57a1979b245",
+        "md5": "700779c9e2096e60e008a50b172583ba",
+        "imphash": "dcc8bc96722b15e6357f993e6b3ccf0b",
+        "file_name": "70bd6036d7af3da68cad94bfcb04d0efca575ca024d4172760e901d7de571c33",
+        "file_type": "dll",
+        "size": 3685888,
+        "sig": "FatalRAT",
+        "first_seen": "2025-12-29 07:23:31",
+        "reporter": "abuse_ch",
+        "tags": [
+          "de-pumped",
+          "dll",
+          "exe",
+          "FatalRAT"
+        ],
+        "vendor_intel_c2": null
+      },
+      {
+        "sha256": "390dd7156785ef7c2fc83135038f7bd492d32f72311c0a80280380ca7f79f11a",
+        "md5": "cfa72468b4ca558f134becc93cb358fb",
+        "imphash": null,
+        "file_name": "70bd6036d7af3da68cad94bfcb04d0efca575ca024d4172760e901d7de571c33.7z",
+        "file_type": "7z",
+        "size": 1147126,
+        "sig": "FatalRAT",
+        "first_seen": "2025-12-29 00:33:59",
+        "reporter": "johnk3r",
+        "tags": [
+          "7z",
+          "banker",
+          "FatalRAT",
+          "file-pumped",
+          "thevacuousswanky-clinicaveterinariahope-dns-cloud-net"
+        ],
+        "vendor_intel_c2": null
+      },
+      {
+        "sha256": "288299a40472f64a2c51cd75f9cd27692819c4927fdb65530f88124aef4b2d78",
+        "md5": "5465d2597470fd994bcb0f28d0c06622",
+        "imphash": "9b201090749bae06a761156dbad9c4f1",
+        "file_name": "5465D2597470FD994BCB0F28D0C06622.exe",
+        "file_type": "exe",
+        "size": 3510272,
+        "sig": "FatalRAT",
+        "first_seen": "2025-12-29 00:05:14",
+        "reporter": "abuse_ch",
+        "tags": [
+          "exe",
+          "FatalRAT"
+        ],
+        "vendor_intel_c2": null
+      },
+      {
+        "sha256": "66f8447a4835720a737cc043f1cfd079e7668f9e038e4b991b13fbaab850f379",
+        "md5": "7a51c640dbb46f1cea19d858eed7c6e8",
+        "imphash": "9b201090749bae06a761156dbad9c4f1",
+        "file_name": "7A51C640DBB46F1CEA19D858EED7C6E8.exe",
+        "file_type": "exe",
+        "size": 3526656,
+        "sig": "FatalRAT",
+        "first_seen": "2025-12-29 00:00:41",
+        "reporter": "abuse_ch",
+        "tags": [
+          "exe",
+          "FatalRAT"
+        ],
+        "vendor_intel_c2": null
+      },
+      {
+        "sha256": "c258bc3b4e7828735830dfa3004facc7a6612eecc2ab5dfb2d16c7bda65b0a1f",
+        "md5": "1afaa7834f190197a5ad69e730cb5c2a",
+        "imphash": "027ea80e8125c6dda271246922d4c3b0",
+        "file_name": "1AFAA7834F190197A5AD69E730CB5C2A.exe",
+        "file_type": "exe",
+        "size": 4107649,
+        "sig": "FatalRAT",
+        "first_seen": "2025-12-17 16:15:20",
+        "reporter": "abuse_ch",
+        "tags": [
+          "exe",
+          "FatalRAT"
+        ],
+        "vendor_intel_c2": null
+      },
+      {
+        "sha256": "7637a316f0b40eedb840ad41a3e56db7b9432b54c03508774d99747ec44a85f1",
+        "md5": "7eaef33038b93b97eefe0b83d48fb839",
+        "imphash": null,
+        "file_name": "xtswpssxti2.65.msi",
+        "file_type": "msi",
+        "size": 69557760,
+        "sig": "FatalRAT",
+        "first_seen": "2025-12-07 04:05:10",
+        "reporter": "abuse_ch",
+        "tags": [
+          "FatalRAT",
+          "msi"
+        ],
+        "vendor_intel_c2": null
+      },
+      {
+        "sha256": "ba64716eb4f78e4c06358ca3b8a088c9ca452bd192356b31e13b2c8a19cae1a2",
+        "md5": "f488181f4d697be7b4ceac5328063a48",
+        "imphash": "9b201090749bae06a761156dbad9c4f1",
+        "file_name": "F488181F4D697BE7B4CEAC5328063A48.exe",
+        "file_type": "exe",
+        "size": 5308628,
+        "sig": "FatalRAT",
+        "first_seen": "2025-11-24 08:10:22",
+        "reporter": "abuse_ch",
+        "tags": [
+          "exe",
+          "FatalRAT"
+        ],
+        "vendor_intel_c2": null
+      },
+      {
+        "sha256": "8d9d28835929c45ec67d20204c8bb2e1d16db52c04b909ebbcd25cb2df9051a7",
+        "md5": "d73c22d8da7f71d7e4e7daf6eadd2e3e",
+        "imphash": "9b201090749bae06a761156dbad9c4f1",
+        "file_name": "8d9d28835929c45ec67d20204c8bb2e1d16db52c04b90.exe",
+        "file_type": "exe",
+        "size": 5300436,
+        "sig": "FatalRAT",
+        "first_seen": "2025-11-10 04:10:08",
+        "reporter": "abuse_ch",
+        "tags": [
+          "exe",
+          "FatalRAT"
+        ],
+        "vendor_intel_c2": null
+      },
+      {
+        "sha256": "243cd136b5aa42c20c048a1fccb215749c482519488f46b05130f5f7dc33583d",
+        "md5": "cb6e17018ac8e6aea677f49b08c0d355",
+        "imphash": "347c78c8c65cb786eb1ac6893d046a5f",
+        "file_name": "243cd136b5aa42c20c048a1fccb215749c482519488f4.exe",
+        "file_type": "exe",
+        "size": 798826,
+        "sig": "FatalRAT",
+        "first_seen": "2025-11-07 01:25:09",
+        "reporter": "abuse_ch",
+        "tags": [
+          "exe",
+          "FatalRAT"
+        ],
+        "vendor_intel_c2": null
+      },
+      {
+        "sha256": "c5ee5a6276dbfe9ba3b955fca16f049baf43c4438a970295b33a52962bbae98f",
+        "md5": "1199be8b06a9b56c9a2ddc1ba1126019",
+        "imphash": "3a8897c84eb41f36b4bbabcc617408b8",
+        "file_name": "1199be8b06a9b56c9a2ddc1ba1126019.exe",
+        "file_type": "exe",
+        "size": 1617920,
+        "sig": "FatalRAT",
+        "first_seen": "2025-10-02 18:40:08",
+        "reporter": "abuse_ch",
+        "tags": [
+          "exe",
+          "FatalRAT"
+        ],
+        "vendor_intel_c2": null
+      },
+      {
+        "sha256": "a7b44fc9f85021736bc5f4fd076763690d334fd8284b9bb0c13efac5ae440235",
+        "md5": "c9694c40dedb4426ffc2c35f6d3cd387",
+        "imphash": null,
+        "file_name": "a7b44fc9f85021736bc5f4fd076763690d334fd8284b9bb0c13efac5ae440235.tgz",
+        "file_type": "rar",
+        "size": 1215740,
+        "sig": "FatalRAT",
+        "first_seen": "2025-09-17 08:22:45",
+        "reporter": "JAMESWT_WT",
+        "tags": [
+          "FatalRAT",
+          "rar",
+          "Trx38Zip"
+        ],
+        "vendor_intel_c2": null
+      },
+      {
+        "sha256": "00253f82c78aa90a213a1c3d7b828a66ba50b10b69cbd407e54061dc5830b684",
+        "md5": "187864776fbe005131a8536eca3a97bf",
+        "imphash": "68a3c4e8118045d33b6bdb7066b98efe",
+        "file_name": "00253f82c78aa90a213a1c3d7b828a66ba50b10b69cbd407e54061dc5830b684",
+        "file_type": "dll",
+        "size": 204800,
+        "sig": "FatalRAT",
+        "first_seen": "2025-09-17 08:22:23",
+        "reporter": "JAMESWT_WT",
+        "tags": [
+          "dll",
+          "FatalRAT",
+          "svp7-net--9874"
+        ],
+        "vendor_intel_c2": null
+      },
+      {
+        "sha256": "2a331b359f85b9f2834b268d677b9286e9e4d71ff114ba56d3c55728e32096c6",
+        "md5": "fc4720f6cdceaaa09cee2e6fb299cdf1",
+        "imphash": null,
+        "file_name": "2a331b359f85b9f2834b268d677b9286e9e4d71ff114ba56d3c55728e32096c6",
+        "file_type": "rar",
+        "size": 721955,
+        "sig": "FatalRAT",
+        "first_seen": "2025-09-17 07:16:48",
+        "reporter": "JAMESWT_WT",
+        "tags": [
+          "FatalRAT",
+          "longlq-cl",
+          "rar"
+        ],
+        "vendor_intel_c2": null
+      },
+      {
+        "sha256": "013459242cd47dfb0d484ea5a5731e9f3f62dd0a9f625835a4e98ceb81b3caf9",
+        "md5": "162b1c37a82177bfb600ddb148b311e2",
+        "imphash": "9b201090749bae06a761156dbad9c4f1",
+        "file_name": "svchost.exe",
+        "file_type": "exe",
+        "size": 3518464,
+        "sig": "YoungLotus",
+        "first_seen": "2025-09-07 03:39:27",
+        "reporter": "iamaachum",
+        "tags": [
+          "a6-nbdsnb2-top",
+          "a6-yydsnb1-top",
+          "CHN",
+          "exe",
+          "FatalRAT",
+          "younglotus"
+        ],
+        "vendor_intel_c2": null
+      },
+      {
+        "sha256": "e8e253972384db09a238058bb55f18a80a33e534dde1845f0f1c0d48fdf9453f",
+        "md5": "6690b5f0221d2abbc7357c56d9e4a6b6",
+        "imphash": null,
+        "file_name": "aqllq_DM_winx64_v2.2.7.msi",
+        "file_type": "msi",
+        "size": 69779456,
+        "sig": "YoungLotus",
+        "first_seen": "2025-09-06 18:57:57",
+        "reporter": "iamaachum",
+        "tags": [
+          "a6-yydsnb1-top",
+          "CHN",
+          "FatalRAT",
+          "msi",
+          "younglotus"
+        ],
+        "vendor_intel_c2": null
+      },
+      {
+        "sha256": "856991ba177f3a8a3d5209551d2074a198fcc6aa6f5b1e4280ed53b07271ffdd",
+        "md5": "408192a358af4cf90216a134bd4c0ad0",
+        "imphash": "231e4c5d9fa7d8178ac0e68a75a85072",
+        "file_name": "408192a358af4cf90216a134bd4c0ad0.exe",
+        "file_type": "exe",
+        "size": 1102848,
+        "sig": "FatalRAT",
+        "first_seen": "2025-08-30 14:51:25",
+        "reporter": "abuse_ch",
+        "tags": [
+          "exe",
+          "FatalRAT"
+        ],
+        "vendor_intel_c2": null
+      },
+      {
+        "sha256": "b5c6264c058d9604b40cbc267d95be46db71f4069ca07a73686a74aeb64f0606",
+        "md5": "32d68a7e03623cd2b53ee1a40df4f421",
+        "imphash": "9b201090749bae06a761156dbad9c4f1",
+        "file_name": "32D68A7E03623CD2B53EE1A40DF4F421.exe",
+        "file_type": "exe",
+        "size": 3514368,
+        "sig": "FatalRAT",
+        "first_seen": "2025-08-26 14:20:27",
+        "reporter": "abuse_ch",
+        "tags": [
+          "exe",
+          "FatalRAT"
+        ],
+        "vendor_intel_c2": null
+      },
+      {
+        "sha256": "7a4cd1e7da686434306fa4f3a50b199fc120625bfd41dd39a69768e0fdbe91bb",
+        "md5": "6054e2c80c02e98fb85faa2ee923ca4e",
+        "imphash": "3a8897c84eb41f36b4bbabcc617408b8",
+        "file_name": "6054E2C80C02E98FB85FAA2EE923CA4E.exe",
+        "file_type": "exe",
+        "size": 921600,
+        "sig": "FatalRAT",
+        "first_seen": "2025-08-23 13:25:23",
+        "reporter": "abuse_ch",
+        "tags": [
+          "exe",
+          "FatalRAT"
+        ],
+        "vendor_intel_c2": null
+      },
+      {
+        "sha256": "5e1b7a390ea9570bf8ad1978585e0f5a2b975880c5acab66b89f3f3e40780294",
+        "md5": "e5079b078fe8169db49c7c64b44ab627",
+        "imphash": null,
+        "file_name": "Chromele_13.02.11转接口.msi",
+        "file_type": "msi",
+        "size": 69166080,
+        "sig": "YoungLotus",
+        "first_seen": "2025-08-22 23:16:27",
+        "reporter": "iamaachum",
+        "tags": [
+          "CHN",
+          "FatalRAT",
+          "msi",
+          "younglotus"
+        ],
+        "vendor_intel_c2": null
+      },
+      {
+        "sha256": "125102e802e142750ba8e44542febf0466607b22b07cef60a0414a2e079a706a",
+        "md5": "38d40e37e5c26de58ce243b02373cce2",
+        "imphash": "56f252cdb9ecc5941f24e182d70dd8fe",
+        "file_name": "0125102e802e142750ba8e44542febf0466607b22b07c.exe",
+        "file_type": "exe",
+        "size": 136704,
+        "sig": "FatalRAT",
+        "first_seen": "2025-08-22 21:55:15",
+        "reporter": "abuse_ch",
+        "tags": [
+          "exe",
+          "FatalRAT"
+        ],
+        "vendor_intel_c2": null
+      },
+      {
+        "sha256": "5cbc19c031488348e19e40c0f433aa720df16d823d835b1a58a30ff5cfb9d0e8",
+        "md5": "0421529fc293bf95184d0c39789b0403",
+        "imphash": "05c7df6d575c13faf78878f9450f3b20",
+        "file_name": "0421529fc293bf95184d0c39789b0403.exe",
+        "file_type": "exe",
+        "size": 98816,
+        "sig": "FatalRAT",
+        "first_seen": "2025-08-22 21:35:16",
+        "reporter": "abuse_ch",
+        "tags": [
+          "exe",
+          "FatalRAT"
+        ],
+        "vendor_intel_c2": null
+      },
+      {
+        "sha256": "1caacde9b1b6557c996ffe78f932ffc6ceba05ee3d095e2741df75d3a52c30b2",
+        "md5": "a9c0c623c9ea4a53b9d36e77e8159391",
+        "imphash": "37ff436608dfd4229b923028faaf734a",
+        "file_name": "a9c0c623c9ea4a53b9d36e77e8159391.exe",
+        "file_type": "exe",
+        "size": 8246784,
+        "sig": "FatalRAT",
+        "first_seen": "2025-08-15 00:20:16",
+        "reporter": "abuse_ch",
+        "tags": [
+          "exe",
+          "FatalRAT",
+          "longlq-cl"
+        ],
+        "vendor_intel_c2": null
+      },
+      {
+        "sha256": "9d6d15a37df9799adf1e7fdbd65ab162e770fe0952c91c1ff5c91dc40f1ae659",
+        "md5": "e73f31c9d92c587c238158df4efed2b8",
+        "imphash": "5976c6fac496b94620428b1203dbfec8",
+        "file_name": "E73F31C9D92C587C238158DF4EFED2B8.exe",
+        "file_type": "exe",
+        "size": 4588032,
+        "sig": "FatalRAT",
+        "first_seen": "2025-08-12 05:35:30",
+        "reporter": "abuse_ch",
+        "tags": [
+          "exe",
+          "FatalRAT"
+        ],
+        "vendor_intel_c2": null
+      },
+      {
+        "sha256": "ee1f48fb01c41b42d93cfe26e07413a5c5ee473b34b9150f9ee4ba6ef0997c03",
+        "md5": "fdbe36e85618c1bc8d683629ebface41",
+        "imphash": "9b201090749bae06a761156dbad9c4f1",
+        "file_name": "ee1f48fb01c41b42d93cfe26e07413a5c5ee473b34b91.exe",
+        "file_type": "exe",
+        "size": 3518464,
+        "sig": "FatalRAT",
+        "first_seen": "2025-08-08 05:50:13",
+        "reporter": "abuse_ch",
+        "tags": [
+          "exe",
+          "FatalRAT"
+        ],
+        "vendor_intel_c2": null
+      },
+      {
+        "sha256": "1bf77a789062dbe0abfc81b3ac0328fc3cfa48f337fa081d35826285996987f4",
+        "md5": "abf27842cd768eb06f17f432fcd34822",
+        "imphash": "3a8897c84eb41f36b4bbabcc617408b8",
+        "file_name": "ABF27842CD768EB06F17F432FCD34822.exe",
+        "file_type": "exe",
+        "size": 897024,
+        "sig": "FatalRAT",
+        "first_seen": "2025-08-06 23:45:14",
+        "reporter": "abuse_ch",
+        "tags": [
+          "exe",
+          "FatalRAT"
+        ],
+        "vendor_intel_c2": null
+      },
+      {
+        "sha256": "b8d1b7f35cfe8b82cfb3403113b8c8f1b6910b293208157b988418a082dd6eba",
+        "md5": "abecbc4dbed5809df67c446202c8ee57",
+        "imphash": "87bed5a7cba00c7e1f4015f1bdae2183",
+        "file_name": "abecbc4dbed5809df67c446202c8ee57.exe",
+        "file_type": "exe",
+        "size": 93704,
+        "sig": "FatalRAT",
+        "first_seen": "2025-08-06 23:30:17",
+        "reporter": "abuse_ch",
+        "tags": [
+          "exe",
+          "FatalRAT"
+        ],
+        "vendor_intel_c2": null
+      },
+      {
+        "sha256": "f735dfdc7f1a238074f0e501d8e8d823ff3a9020a4b843dda69ff3f349567d20",
+        "md5": "6aeb3e076f1d29cc715f4f48b385c3e1",
+        "imphash": "b16cb49bdc6c08e55de67d62235606dc",
+        "file_name": "6aeb3e076f1d29cc715f4f48b385c3e1.exe",
+        "file_type": "exe",
+        "size": 5169664,
+        "sig": "FatalRAT",
+        "first_seen": "2025-08-03 06:25:32",
+        "reporter": "abuse_ch",
+        "tags": [
+          "exe",
+          "FatalRAT"
+        ],
+        "vendor_intel_c2": null
+      },
+      {
+        "sha256": "802c8b25c635e825fcf1faf69c893aa5eedd4190ee8b30d255e909aac8a84a64",
+        "md5": "603acb5bec63c55da798720f167434b2",
+        "imphash": "3a8897c84eb41f36b4bbabcc617408b8",
+        "file_name": "603ACB5BEC63C55DA798720F167434B2.exe",
+        "file_type": "exe",
+        "size": 917504,
+        "sig": "FatalRAT",
+        "first_seen": "2025-08-03 04:50:11",
+        "reporter": "abuse_ch",
+        "tags": [
+          "exe",
+          "FatalRAT"
+        ],
+        "vendor_intel_c2": null
+      },
+      {
+        "sha256": "9caa90fe0216c66dc29e3049b126643d2a8c68f68663fba2da70a2d9c29d5c49",
+        "md5": "199dd0a3367f4a7213d17ad6ab1983f7",
+        "imphash": "4438a88fe236bfa808992f2adb1a4a4c",
+        "file_name": "9caa90fe0216c66dc29e3049b126643d2a8c68f68663f.exe",
+        "file_type": "exe",
+        "size": 5281792,
+        "sig": "FatalRAT",
+        "first_seen": "2025-07-29 15:05:47",
+        "reporter": "abuse_ch",
+        "tags": [
+          "exe",
+          "FatalRAT",
+          "longlq-cl"
+        ],
+        "vendor_intel_c2": null
+      },
+      {
+        "sha256": "d7ec36c0592b76f2c3c78cdee9d9ed2b82317d953392453a6fcb4db57fbf42d9",
+        "md5": "74197c47ec542c41fd20bca2fc4e1fe2",
+        "imphash": "3a8897c84eb41f36b4bbabcc617408b8",
+        "file_name": "74197C47EC542C41FD20BCA2FC4E1FE2.exe",
+        "file_type": "exe",
+        "size": 884736,
+        "sig": "FatalRAT",
+        "first_seen": "2025-07-27 15:25:15",
+        "reporter": "abuse_ch",
+        "tags": [
+          "exe",
+          "FatalRAT"
+        ],
+        "vendor_intel_c2": null
+      },
+      {
+        "sha256": "72ea59962c5ac7200d317104a55a6a09d657d3f6c224c963ae380ff39941f04c",
+        "md5": "5effc8c24375dfff489c6318c88b3b81",
+        "imphash": "79346d73f8d60fa11ceef27932261e6a",
+        "file_name": "5EFFC8C24375DFFF489C6318C88B3B81.exe",
+        "file_type": "exe",
+        "size": 5293056,
+        "sig": "FatalRAT",
+        "first_seen": "2025-07-26 00:32:10",
+        "reporter": "abuse_ch",
+        "tags": [
+          "exe",
+          "FatalRAT",
+          "longlq-cl"
+        ],
+        "vendor_intel_c2": null
+      },
+      {
+        "sha256": "fff13ca484f987c461a89ae20c564f293fbd433c1220255e3f20fe3b1ac3eb52",
+        "md5": "5e9b98790b1223e754976bdb80ffcf57",
+        "imphash": "3a8897c84eb41f36b4bbabcc617408b8",
+        "file_name": "5E9B98790B1223E754976BDB80FFCF57.exe",
+        "file_type": "exe",
+        "size": 905216,
+        "sig": "FatalRAT",
+        "first_seen": "2025-07-22 17:15:17",
+        "reporter": "abuse_ch",
+        "tags": [
+          "exe",
+          "FatalRAT"
+        ],
+        "vendor_intel_c2": null
+      },
+      {
+        "sha256": "252f62fd53af829b188afc11bd2215d0d7793bf3cf0f44c3ac9bb5cb9d5fa2b4",
+        "md5": "34b10906d83c11208a62ab492c7d4be3",
+        "imphash": "79346d73f8d60fa11ceef27932261e6a",
+        "file_name": "34b10906d83c11208a62ab492c7d4be3.exe",
+        "file_type": "exe",
+        "size": 8718848,
+        "sig": "FatalRAT",
+        "first_seen": "2025-07-21 20:06:46",
+        "reporter": "abuse_ch",
+        "tags": [
+          "exe",
+          "FatalRAT",
+          "longlq-cl"
+        ],
+        "vendor_intel_c2": null
+      },
+      {
+        "sha256": "8d5f0150d9529fe33d1bae3c8891fa46556782c0d9269215bc8ad672e178a902",
+        "md5": "2f26bb2da04d1ce2ef3afac5ab9afff2",
+        "imphash": "37ff436608dfd4229b923028faaf734a",
+        "file_name": "2F26BB2DA04D1CE2EF3AFAC5AB9AFFF2.exe",
+        "file_type": "exe",
+        "size": 8571304,
+        "sig": "FatalRAT",
+        "first_seen": "2025-07-21 18:30:20",
+        "reporter": "abuse_ch",
+        "tags": [
+          "exe",
+          "FatalRAT",
+          "longlq-cl"
+        ],
+        "vendor_intel_c2": null
+      },
+      {
+        "sha256": "1bd8c74021c24b91c13a04df4530661abffa93afdce275c496e5db9ff0554890",
+        "md5": "5009c9f812e1dc51616d958d2f950957",
+        "imphash": "6c306e45fa9f977a2f45c8a08df084d5",
+        "file_name": "5009c9f812e1dc51616d958d2f950957.exe",
+        "file_type": "exe",
+        "size": 196608,
+        "sig": "FatalRAT",
+        "first_seen": "2025-07-14 21:00:21",
+        "reporter": "abuse_ch",
+        "tags": [
+          "exe",
+          "FatalRAT"
+        ],
+        "vendor_intel_c2": null
+      },
+      {
+        "sha256": "41739bfb9518c5de588152c8090911bf2be7677794d97ff50a7642276752f7c5",
+        "md5": "6dbacdb676094999754c0614eca999cd",
+        "imphash": "79346d73f8d60fa11ceef27932261e6a",
+        "file_name": "6DBACDB676094999754C0614ECA999CD.exe",
+        "file_type": "exe",
+        "size": 11477060,
+        "sig": "FatalRAT",
+        "first_seen": "2025-07-12 03:30:17",
+        "reporter": "abuse_ch",
+        "tags": [
+          "exe",
+          "FatalRAT"
+        ],
+        "vendor_intel_c2": null
+      },
+      {
+        "sha256": "28ad3175fc2c72135a79d95d4fe9cc273f74259800b42635b5c7ddda113a8a44",
+        "md5": "36ce6b4ffedf9110c6329d24bac1a123",
+        "imphash": "6c306e45fa9f977a2f45c8a08df084d5",
+        "file_name": "36ce6b4ffedf9110c6329d24bac1a123.exe",
+        "file_type": "exe",
+        "size": 196608,
+        "sig": "FatalRAT",
+        "first_seen": "2025-07-11 20:40:11",
+        "reporter": "abuse_ch",
+        "tags": [
+          "exe",
+          "FatalRAT"
+        ],
+        "vendor_intel_c2": null
+      },
+      {
+        "sha256": "5384b022a0b98961e93a808b5680f6336fecce1b68142d7b93b64d7525c979e6",
+        "md5": "b5e9aa7d667af98f39465ff1bec5b8a8",
+        "imphash": "9b201090749bae06a761156dbad9c4f1",
+        "file_name": "5384b022a0b98961e93a808b5680f6336fecce1b68142.exe",
+        "file_type": "exe",
+        "size": 3518464,
+        "sig": "FatalRAT",
+        "first_seen": "2025-07-10 11:25:17",
+        "reporter": "abuse_ch",
+        "tags": [
+          "exe",
+          "FatalRAT"
+        ],
+        "vendor_intel_c2": null
+      },
+      {
+        "sha256": "70dc1b89b608524c98f02a2bd8a0cf162d662841f30b6e622c8fea77dbaae148",
+        "md5": "e1bebcc13925a94b4960c2d003e09e91",
+        "imphash": "4d363d3b473a6c355539abd95921390d",
+        "file_name": "Setup安装包.exe",
+        "file_type": "exe",
+        "size": 68619106,
+        "sig": "FatalRAT",
+        "first_seen": "2025-07-10 05:28:15",
+        "reporter": "GDHJDSYDH1",
+        "tags": [
+          "backdoor",
+          "exe",
+          "FatalRAT",
+          "SilverFox",
+          "ValleyRAT",
+          "VMProtect"
+        ],
+        "vendor_intel_c2": null
+      },
+      {
+        "sha256": "999bf3541fca499c596ad544f9d3e78db6569b665ca96e2db4f29a6eda62af52",
+        "md5": "5d25ae3d72d97a8d4b9d7a94ac55ffb8",
+        "imphash": "8c9809bac840be8c12454937af037e80",
+        "file_name": "5d25ae3d72d97a8d4b9d7a94ac55ffb8.exe",
+        "file_type": "exe",
+        "size": 7030784,
+        "sig": "FatalRAT",
+        "first_seen": "2025-07-07 03:30:45",
+        "reporter": "abuse_ch",
+        "tags": [
+          "exe",
+          "FatalRAT"
+        ],
+        "vendor_intel_c2": null
+      },
+      {
+        "sha256": "26f0bf22d89f5dd5923e64bf2346879c04502c9134ee09f787f85335e4a542b9",
+        "md5": "cd82c4f8ef001bc74e701e1fbca1fc26",
+        "imphash": "825ccf5b2dbec8d6c0990de108e5f96d",
+        "file_name": "cd82c4f8ef001bc74e701e1fbca1fc26.exe",
+        "file_type": "exe",
+        "size": 4760064,
+        "sig": "FatalRAT",
+        "first_seen": "2025-07-06 15:50:31",
+        "reporter": "abuse_ch",
+        "tags": [
+          "exe",
+          "FatalRAT",
+          "longlq-cl"
+        ],
+        "vendor_intel_c2": null
+      },
+      {
+        "sha256": "f59ea070219a33f8ae191c9c882698dd63f87c315a8d9730a8eaf28e7c40f5eb",
+        "md5": "770b6ad60a77d24927296b7f77e25c3a",
+        "imphash": "652c9a398889a9e5284b4d1011e3137f",
+        "file_name": "770b6ad60a77d24927296b7f77e25c3a.exe",
+        "file_type": "exe",
+        "size": 27247798,
+        "sig": "FatalRAT",
+        "first_seen": "2025-07-04 05:40:27",
+        "reporter": "abuse_ch",
+        "tags": [
+          "exe",
+          "FatalRAT"
+        ],
+        "vendor_intel_c2": null
+      },
+      {
+        "sha256": "4d432381e4a63408e457905de189999fbccbbb7df3284f1bbe50f884de739783",
+        "md5": "6a2ea0d48e2cf849fd4761682ad29e31",
+        "imphash": "5e39a34c35158974b7b14f24a8f088ce",
+        "file_name": "6a2ea0d48e2cf849fd4761682ad29e31.exe",
+        "file_type": "exe",
+        "size": 26529792,
+        "sig": "FatalRAT",
+        "first_seen": "2025-07-02 08:00:54",
+        "reporter": "abuse_ch",
+        "tags": [
+          "exe",
+          "FatalRAT",
+          "Trx38Zip"
+        ],
+        "vendor_intel_c2": null
+      },
+      {
+        "sha256": "33f2284963bd7b6aa213bc552a11ab30f877d1023096e4d9cf0a6a78e15be0fb",
+        "md5": "5b7e5e593c1fce9059c9c73e6a09a1da",
+        "imphash": "848a921ef19d9dffffd57f543dc8705d",
+        "file_name": "5b7e5e593c1fce9059c9c73e6a09a1da.exe",
+        "file_type": "exe",
+        "size": 2149376,
+        "sig": "FatalRAT",
+        "first_seen": "2025-06-30 01:15:11",
+        "reporter": "abuse_ch",
+        "tags": [
+          "exe",
+          "FatalRAT"
+        ],
+        "vendor_intel_c2": null
+      },
+      {
+        "sha256": "c78575e9bcae8d563db28159256915ca8cf149c16c1c9bd01d0cefa499812f08",
+        "md5": "77f77163b11167e77d4f2d16dcd2183f",
+        "imphash": "4f52f6a116628ac5390b134b79313e92",
+        "file_name": "77f77163b11167e77d4f2d16dcd2183f.exe",
+        "file_type": "exe",
+        "size": 320000,
+        "sig": "FatalRAT",
+        "first_seen": "2025-06-29 02:30:16",
+        "reporter": "abuse_ch",
+        "tags": [
+          "exe",
+          "FatalRAT"
+        ],
+        "vendor_intel_c2": null
+      }
+    ]
+  },
+  "Gh0stCringe": {
+    "query_status": "ok",
+    "count": 13,
+    "samples": [
+      {
+        "sha256": "8be316e9308a263fb890d2847d46b9db59a42e76997dfbc7c7c91a46b0520fc9",
+        "md5": "8c6df59659d4407fa4a07cc094f46dd5",
+        "imphash": null,
+        "file_name": "deepseek.msi",
+        "file_type": "msi",
+        "size": 6331392,
+        "sig": "Gh0stRAT",
+        "first_seen": "2025-06-23 01:27:25",
+        "reporter": "iamaachum",
+        "tags": [
+          "Gh0stCringe",
+          "Gh0stRAT",
+          "msi",
+          "PurpleFox"
+        ],
+        "vendor_intel_c2": null
+      },
+      {
+        "sha256": "2e8018f36f3e682f8c8f407448cb2c41e639707c251ae5877090d61286143ba4",
+        "md5": "c3e87d5de68cefd51bdd950b3d6c488b",
+        "imphash": "1b365823829e2ac9bfb0aa5d328240a4",
+        "file_name": "Ghst.exe",
+        "file_type": "exe",
+        "size": 69632,
+        "sig": "RunningRAT",
+        "first_seen": "2024-12-23 21:14:16",
+        "reporter": "x86rax",
+        "tags": [
+          "exe",
+          "Gh0stCringe",
+          "Gh0stRAT",
+          "Ghost",
+          "GhostRat",
+          "RunningRAT"
+        ],
+        "vendor_intel_c2": null
+      },
+      {
+        "sha256": "a8814d551510e0aa051fa2022ea305e55143f2482d5e1532126d542fec1589e9",
+        "md5": "2f42e8f857f85d7585ac477b3af5a0aa",
+        "imphash": "f6e227b328b6aba3a7655dd732629303",
+        "file_name": "d9c2556fc8feba29b9f1dfddbd1dd282fcd6d910.dll",
+        "file_type": "dll",
+        "size": 53248,
+        "sig": "Gh0stRAT",
+        "first_seen": "2024-11-19 11:54:30",
+        "reporter": "NDA0E",
+        "tags": [
+          "dll",
+          "Gh0stCringe",
+          "Gh0stRAT",
+          "RunningRAT",
+          "younglotus"
+        ],
+        "vendor_intel_c2": null
+      },
+      {
+        "sha256": "0ab3f28c2e63c11de5149502fb3d04411d07d00a46ab90b7fdecbc0daf3190e4",
+        "md5": "d3f2d8fd74af4d72be0b7fecd2e3deb3",
+        "imphash": "f6e227b328b6aba3a7655dd732629303",
+        "file_name": "8ba3da33af3c6197aa0906c3a09ec84a0786122c.dll",
+        "file_type": "dll",
+        "size": 53248,
+        "sig": "Gh0stRAT",
+        "first_seen": "2024-11-19 11:54:22",
+        "reporter": "NDA0E",
+        "tags": [
+          "dll",
+          "Gh0stCringe",
+          "Gh0stRAT",
+          "RunningRAT",
+          "younglotus"
+        ],
+        "vendor_intel_c2": null
+      },
+      {
+        "sha256": "d0eac987bcbfdc5c85ec8190be7366798cf06035ffaf4088a41f3b82c1ab498c",
+        "md5": "58c8be7d71f2a005e7121682e8e37644",
+        "imphash": "f6e227b328b6aba3a7655dd732629303",
+        "file_name": "27f2b8b58583ca55f08282437aa8367c3f9ce1f4.dll",
+        "file_type": "dll",
+        "size": 53248,
+        "sig": "Gh0stRAT",
+        "first_seen": "2024-11-19 11:54:09",
+        "reporter": "NDA0E",
+        "tags": [
+          "dll",
+          "Gh0stCringe",
+          "Gh0stRAT",
+          "RunningRAT",
+          "younglotus"
+        ],
+        "vendor_intel_c2": null
+      },
+      {
+        "sha256": "9d036fa361566113d0a9df117d17d45376d04d5c94d7ec82325701bcebbb24f9",
+        "md5": "69d0073128e18039221bc56d45f954aa",
+        "imphash": "5246b4791a3abad331ed0c356d7ef01a",
+        "file_name": "海外模式前期准备工具.exe",
+        "file_type": "exe",
+        "size": 7259136,
+        "sig": "Gh0stCringe",
+        "first_seen": "2023-07-14 09:23:38",
+        "reporter": "obfusor",
+        "tags": [
+          "exe",
+          "Gh0stCringe"
+        ],
+        "vendor_intel_c2": null
+      },
+      {
+        "sha256": "8ade56bd356d12804d384ca24fe876346498a25870f6caf08e16d0c73e5abe59",
+        "md5": "6a22fcca6ca4c0c6ff6ace02db9d5989",
+        "imphash": "f77ccd2bc527c633460aaccb651fb211",
+        "file_name": "6a22fcca6ca4c0c6ff6ace02db9d5989.exe",
+        "file_type": "exe",
+        "size": 668160,
+        "sig": "Gh0stCringe",
+        "first_seen": "2022-02-19 15:55:18",
+        "reporter": "abuse_ch",
+        "tags": [
+          "exe",
+          "Gh0stCringe"
+        ],
+        "vendor_intel_c2": null
+      },
+      {
+        "sha256": "18158134da1bb476cc580a19d2e61e1cc378452ad527022169040344abcb22a3",
+        "md5": "3a5b7d5f6a117df62b659581127ff18c",
+        "imphash": "d9c7208ff3022bb34870c7ddeb406eb1",
+        "file_name": "3a5b7d5f6a117df62b659581127ff18c.exe",
+        "file_type": "exe",
+        "size": 63488,
+        "sig": "Gh0stCringe",
+        "first_seen": "2021-10-03 07:30:58",
+        "reporter": "abuse_ch",
+        "tags": [
+          "exe",
+          "Gh0stCringe"
+        ],
+        "vendor_intel_c2": null
+      },
+      {
+        "sha256": "4853453ba12dde157cec10692eb874f34f333a6ccfb0782bf36ba2c3a57713dc",
+        "md5": "02b29a12ebf1b0b08ce33918d059882a",
+        "imphash": "d9c7208ff3022bb34870c7ddeb406eb1",
+        "file_name": "02b29a12ebf1b0b08ce33918d059882a",
+        "file_type": "exe",
+        "size": 63488,
+        "sig": "Gh0stCringe",
+        "first_seen": "2021-10-01 13:46:24",
+        "reporter": "zbetcheckin",
+        "tags": [
+          "32",
+          "exe",
+          "Gh0stCringe"
+        ],
+        "vendor_intel_c2": null
+      },
+      {
+        "sha256": "e7c3f20e293112d02c667e098467572371107a5316ffdf4434dea2e490434771",
+        "md5": "daf298da9fb65d9ed7cacee60b0d41e4",
+        "imphash": "d9c7208ff3022bb34870c7ddeb406eb1",
+        "file_name": "daf298da9fb65d9ed7cacee60b0d41e4",
+        "file_type": "exe",
+        "size": 63488,
+        "sig": "Gh0stCringe",
+        "first_seen": "2021-10-01 13:27:16",
+        "reporter": "zbetcheckin",
+        "tags": [
+          "32",
+          "exe",
+          "Gh0stCringe"
+        ],
+        "vendor_intel_c2": null
+      },
+      {
+        "sha256": "acaed16a37962b29231a2b0842b616000656a12ff66ce41830ca855a207fc5dc",
+        "md5": "25741ac45ffe74f8c4817b28500fa48d",
+        "imphash": "d9c7208ff3022bb34870c7ddeb406eb1",
+        "file_name": "25741ac45ffe74f8c4817b28500fa48d",
+        "file_type": "exe",
+        "size": 63488,
+        "sig": "Gh0stCringe",
+        "first_seen": "2021-08-01 16:32:48",
+        "reporter": "zbetcheckin",
+        "tags": [
+          "32",
+          "exe",
+          "Gh0stCringe"
+        ],
+        "vendor_intel_c2": null
+      },
+      {
+        "sha256": "c973c31f8af3d15abb5963e2764f534e5263828320e9c15e57c953392c32ce65",
+        "md5": "2d50dbb80e4e0974ac31b1b7b0586b43",
+        "imphash": "d9c7208ff3022bb34870c7ddeb406eb1",
+        "file_name": "2d50dbb80e4e0974ac31b1b7b0586b43",
+        "file_type": "exe",
+        "size": 63488,
+        "sig": "Gh0stCringe",
+        "first_seen": "2021-06-24 00:12:09",
+        "reporter": "zbetcheckin",
+        "tags": [
+          "32",
+          "exe",
+          "Gh0stCringe"
+        ],
+        "vendor_intel_c2": null
+      },
+      {
+        "sha256": "c9ef2a3ae38154b1dacc2724d2b0e097e893c7617602969fcf3f56abe5d96d72",
+        "md5": "11b43c20d49e9debef0100b8ad6afc9a",
+        "imphash": "adc754c8c9a4626b89d50a47049921d2",
+        "file_name": "账款明细3.20_xlsx.exe",
+        "file_type": "exe",
+        "size": 126976,
+        "sig": null,
+        "first_seen": "2021-03-20 11:16:49",
+        "reporter": "anonymous",
+        "tags": [
+          "Gh0stCringe",
+          "Gh0stRAT"
+        ],
+        "vendor_intel_c2": null
+      }
+    ]
+  },
+  "PurpleFox": {
+    "query_status": "ok",
+    "count": 50,
+    "samples": [
+      {
+        "sha256": "1cfb6fc65a1c6b9f28c76cfc300a3b6e9afcf98d5793e306d44eb6c18ba9a63c",
+        "md5": "c87e94cb24f6398ad4da0953bc663e8f",
+        "imphash": null,
+        "file_name": "点击安装中文语言包a.msi",
+        "file_type": "msi",
+        "size": 3604480,
+        "sig": "PurpleFox",
+        "first_seen": "2026-05-28 00:16:17",
+        "reporter": "CNGaoLing",
+        "tags": [
+          "agent",
+          "Gh0stRAT",
+          "msi",
+          "PurpleFox"
+        ],
+        "vendor_intel_c2": null
+      },
+      {
+        "sha256": "ee39f1387ecff828c7f30afd01eae3bca27727f804a4167e91a9c841d1790cb2",
+        "md5": "1670149779fbfd70256eb78c9451561b",
+        "imphash": null,
+        "file_name": "点击安装简体中语言包l.msi",
+        "file_type": "msi",
+        "size": 3362816,
+        "sig": "PurpleFox",
+        "first_seen": "2026-05-23 16:28:30",
+        "reporter": "CNGaoLing",
+        "tags": [
+          "msi",
+          "PurpleFox",
+          "SilverFox",
+          "ValleyRAT"
+        ],
+        "vendor_intel_c2": null
+      },
+      {
+        "sha256": "524f4410012eaf96e6a64aaf4d5b014fa156f4ea31a5b1a6d6c99952d0eb63f8",
+        "md5": "5a1c8e1f47fda95c5ac9a7c7052400a7",
+        "imphash": "055aa6265fc08e5361531fd56151faf6",
+        "file_name": "datesksupe37.exe",
+        "file_type": "exe",
+        "size": 4000256,
+        "sig": "Gh0stRAT",
+        "first_seen": "2026-04-14 20:54:38",
+        "reporter": "iamaachum",
+        "tags": [
+          "CHN",
+          "exe",
+          "Gh0stRAT",
+          "j6fadacai-com",
+          "PurpleFox",
+          "xiaoshihou37-top"
+        ],
+        "vendor_intel_c2": null
+      },
+      {
+        "sha256": "138a06e4181d214861ac8815473c946ffd9e39fd56ac08fa9e3e122a8b377744",
+        "md5": "f72044c346514c01e42303b0461af269",
+        "imphash": null,
+        "file_name": "win32-chromesog.msi",
+        "file_type": "msi",
+        "size": 72581632,
+        "sig": "Gh0stRAT",
+        "first_seen": "2026-04-14 20:53:56",
+        "reporter": "iamaachum",
+        "tags": [
+          "CHN",
+          "Gh0stRAT",
+          "j6fadacai-com",
+          "msi",
+          "PurpleFox",
+          "xiaoshihou37-top"
+        ],
+        "vendor_intel_c2": null
+      },
+      {
+        "sha256": "36fcbb6705cfb33700f750b218cf948f73590504a9fc31b4c1d9d8b517e5b8d9",
+        "md5": "4323e1e0b821683ecace3fb52d22065b",
+        "imphash": "ca9d692a628aa9acda2c33ef6b018c9b",
+        "file_name": "openclaw installation.exe",
+        "file_type": "exe",
+        "size": 1644032,
+        "sig": "PurpleFox",
+        "first_seen": "2026-04-12 11:29:48",
+        "reporter": "BlinkzSec",
+        "tags": [
+          "PurpleFox"
+        ],
+        "vendor_intel_c2": null
+      },
+      {
+        "sha256": "4271e63615907efe119d10f3cf3fdc0e8571ff7e42e7be6f0ffe6fe9333ae6b1",
+        "md5": "7c47618290a2397a8acac78f9b46264e",
+        "imphash": null,
+        "file_name": "谷歌安装包.msi",
+        "file_type": "msi",
+        "size": 6381568,
+        "sig": "PurpleFox",
+        "first_seen": "2026-04-08 13:36:14",
+        "reporter": "netresec",
+        "tags": [
+          "msi",
+          "PurpleFox"
+        ],
+        "vendor_intel_c2": null
+      },
+      {
+        "sha256": "6f0639714b080ffd89d082c080e2715e198536dc63ffda5aeadcf72406d31ffc",
+        "md5": "7f34560216d2d553931a1705a790d7e2",
+        "imphash": null,
+        "file_name": "ChromeSetup-6808.msi",
+        "file_type": "msi",
+        "size": 9414144,
+        "sig": "PurpleFox",
+        "first_seen": "2025-12-16 21:25:59",
+        "reporter": "CNGaoLing",
+        "tags": [
+          "msi",
+          "PurpleFox",
+          "Trojan:Win32/Wacatac.C!ml",
+          "Wacatac.C"
+        ],
+        "vendor_intel_c2": null
+      },
+      {
+        "sha256": "9690b2647b369a7924f6cff948e4693cb4ae297d2e02da16dd96a99e49d011d4",
+        "md5": "9e4ce795ccddf4002be40f3954a7e4ca",
+        "imphash": null,
+        "file_name": "ChromeSetup_D.msi",
+        "file_type": "msi",
+        "size": 4012032,
+        "sig": "PurpleFox",
+        "first_seen": "2025-12-15 18:02:16",
+        "reporter": "CNGaoLing",
+        "tags": [
+          "msi",
+          "PurpleFox",
+          "Trojan:Win32/Malgent!MSR"
+        ],
+        "vendor_intel_c2": null
+      },
+      {
+        "sha256": "a6d7ebb2b18f9a77e4fdb78e3e29558a6b5605b4eb4e364ce9e120086a82ea32",
+        "md5": "d8574388573f4b33d047b87c0cccd2da",
+        "imphash": null,
+        "file_name": "ChromeSetup.msi",
+        "file_type": "msi",
+        "size": 2816000,
+        "sig": "PurpleFox",
+        "first_seen": "2025-12-15 18:01:33",
+        "reporter": "CNGaoLing",
+        "tags": [
+          "msi",
+          "PurpleFox",
+          "Trojan:Win32/Malgent!MSR"
+        ],
+        "vendor_intel_c2": null
+      },
+      {
+        "sha256": "0d907606ee58fb853289da236e9b9eb2d8797cc9eec312ac50267b38528d650b",
+        "md5": "45a3e69d2239cf245a507b8e60c80d50",
+        "imphash": null,
+        "file_name": "剧情.msi",
+        "file_type": "msi",
+        "size": 5689344,
+        "sig": "PurpleFox",
+        "first_seen": "2025-12-14 16:50:18",
+        "reporter": "CNGaoLing",
+        "tags": [
+          "msi",
+          "PurpleFox"
+        ],
+        "vendor_intel_c2": null
+      },
+      {
+        "sha256": "8b2ada0760c4f139ca2043c750627ab9aed1e5ee09eaf87e54811f89f1cea567",
+        "md5": "b1734324f58fc990e29b7615b4267c49",
+        "imphash": null,
+        "file_name": "007 切入投资.msi",
+        "file_type": "msi",
+        "size": 4059136,
+        "sig": "PurpleFox",
+        "first_seen": "2025-12-14 16:49:55",
+        "reporter": "CNGaoLing",
+        "tags": [
+          "msi",
+          "PurepleFox",
+          "PurpleFox"
+        ],
+        "vendor_intel_c2": null
+      },
+      {
+        "sha256": "bfafd06973daa3a0f0b6f08a9d0e6c2cc0f4eae098e97d177432aecf986e0002",
+        "md5": "42cbcbafec9b925ab7718e35a62a688f",
+        "imphash": null,
+        "file_name": "ChromeSetup-7000.msi",
+        "file_type": "msi",
+        "size": 9420800,
+        "sig": "Gh0stRAT",
+        "first_seen": "2025-11-30 00:06:08",
+        "reporter": "iamaachum",
+        "tags": [
+          "cc-kmsccadn-com",
+          "CHN",
+          "Gh0stRAT",
+          "msi",
+          "PurpleFox"
+        ],
+        "vendor_intel_c2": null
+      },
+      {
+        "sha256": "dd615f60bc6c364b15ffdf93880e3dcdef9e7a2eb5444cd913c6e3a58b0943d5",
+        "md5": "066b44d1237fbfe11f597f3c7ca7c9ca",
+        "imphash": null,
+        "file_name": "telegram.msi",
+        "file_type": "msi",
+        "size": 49090560,
+        "sig": "PurpleFox",
+        "first_seen": "2025-11-08 07:55:34",
+        "reporter": "abuse_ch",
+        "tags": [
+          "msi",
+          "PurpleFox"
+        ],
+        "vendor_intel_c2": null
+      },
+      {
+        "sha256": "4fa17fd83659ae7e3a015067326831963ddc5f1b194c76f14a22187febcb72a5",
+        "md5": "07992c0886bd99cb477e2111999150e9",
+        "imphash": null,
+        "file_name": "uu_ii_yi_wldjx_ppp.msi",
+        "file_type": "msi",
+        "size": 9325056,
+        "sig": "Gh0stRAT",
+        "first_seen": "2025-10-17 18:09:41",
+        "reporter": "iamaachum",
+        "tags": [
+          "CHN",
+          "cn-teams-com",
+          "Gh0stRAT",
+          "msi",
+          "PurpleFox",
+          "xiaoshihou17-top"
+        ],
+        "vendor_intel_c2": null
+      },
+      {
+        "sha256": "42faf503afd58bc7aa37f5d4340be11895cae9d29da75bfaa97180671172304c",
+        "md5": "bf67977db397d7df9c445557f32d84df",
+        "imphash": null,
+        "file_name": "ChromeSetup-6581.msi",
+        "file_type": "msi",
+        "size": 9285120,
+        "sig": "PurpleFox",
+        "first_seen": "2025-10-01 09:17:34",
+        "reporter": "ertutioabcd",
+        "tags": [
+          "Farfli",
+          "msi",
+          "PurpleFox"
+        ],
+        "vendor_intel_c2": null
+      },
+      {
+        "sha256": "1fe21e70078942fa8dc7bccb5362e86b0e6340c533eb8e01b59e34a0dd61bd05",
+        "md5": "233db972d40029f345a75e8e03e10c9c",
+        "imphash": "19d4e66d725c89ba6712b82bebc8196d",
+        "file_name": "Server.exe",
+        "file_type": "exe",
+        "size": 502784,
+        "sig": "Purplefox",
+        "first_seen": "2025-09-24 16:28:18",
+        "reporter": "abuse_ch",
+        "tags": [
+          "exe",
+          "PurpleFox"
+        ],
+        "vendor_intel_c2": null
+      },
+      {
+        "sha256": "49f8f5965f741105206c6616579c66bf84e63d9251c09e01b081e60e3771c50d",
+        "md5": "eb7409c89bbd21f51b7da5bdd1c786be",
+        "imphash": "5e6d658ce930b51a860e86e18da18b62",
+        "file_name": "SystemProcess22.exe",
+        "file_type": "exe",
+        "size": 10928640,
+        "sig": "Gh0stRAT",
+        "first_seen": "2025-09-06 18:18:21",
+        "reporter": "iamaachum",
+        "tags": [
+          "CHN",
+          "exe",
+          "Gh0stRAT",
+          "PurpleFox",
+          "xiaoshihou22-top"
+        ],
+        "vendor_intel_c2": null
+      },
+      {
+        "sha256": "00c1314504b05c7fc7cc7280405f31165b9722c704520afef26aa88ff566b871",
+        "md5": "d7c79a1760f566777725df8efc9321fd",
+        "imphash": "323f9a588df3d5a4732f7632ec223efe",
+        "file_name": "vvv.exe",
+        "file_type": "exe",
+        "size": 1507328,
+        "sig": "PurpleFox",
+        "first_seen": "2025-09-03 18:14:35",
+        "reporter": "abuse_ch",
+        "tags": [
+          "exe",
+          "PurpleFox"
+        ],
+        "vendor_intel_c2": null
+      },
+      {
+        "sha256": "7a4bd378812093cf8aa2a3add92477ab4a0647b9e7c3d098560c982cfd971564",
+        "md5": "ac5e84d3488b8d9bafc95316d8a2efaf",
+        "imphash": null,
+        "file_name": "Chrom-17027.msi",
+        "file_type": "msi",
+        "size": 8484352,
+        "sig": "PurpleFox",
+        "first_seen": "2025-09-03 13:04:15",
+        "reporter": "anonymous",
+        "tags": [
+          "msi",
+          "PurpleFox"
+        ],
+        "vendor_intel_c2": null
+      },
+      {
+        "sha256": "4c51e0b59abdf345fb17eea734f1d73203f633aba138b26d31bf975e38bb66ff",
+        "md5": "5ed8175d6f17931086a7aa2201eb404d",
+        "imphash": null,
+        "file_name": "googe_plcv_pv_cin19.msi",
+        "file_type": "msi",
+        "size": 89982976,
+        "sig": "Gh0stRAT",
+        "first_seen": "2025-08-22 23:18:02",
+        "reporter": "iamaachum",
+        "tags": [
+          "154-82-85-102",
+          "CHN",
+          "Gh0stRAT",
+          "msi",
+          "PurpleFox",
+          "RAT"
+        ],
+        "vendor_intel_c2": null
+      },
+      {
+        "sha256": "b877afc42d3fddf81f561aac9b68b7caf808290131c9fa3e4243b394455cde14",
+        "md5": "fbe4c36fed7bf0ea1a448ee96cf0706e",
+        "imphash": null,
+        "file_name": "AnyDesk_CVOKL_pl_cn.msi",
+        "file_type": "msi",
+        "size": 83317248,
+        "sig": "Gh0stRAT",
+        "first_seen": "2025-08-22 23:15:19",
+        "reporter": "iamaachum",
+        "tags": [
+          "154-82-85-102",
+          "CHN",
+          "Gh0stRAT",
+          "msi",
+          "PurpleFox",
+          "RAT"
+        ],
+        "vendor_intel_c2": null
+      },
+      {
+        "sha256": "a5be16eea82ff1772f6949a2c018b21af85e9d3d303eb5f0fb472fbbf1fb2113",
+        "md5": "32fa10528c49d3644473225c29afe84a",
+        "imphash": null,
+        "file_name": "SZIOFDNNCJ_WdcweEoetr_Setup_ChromeSetup.msi",
+        "file_type": "msi",
+        "size": 57563648,
+        "sig": "Gh0stRAT",
+        "first_seen": "2025-07-18 20:42:28",
+        "reporter": "iamaachum",
+        "tags": [
+          "CHN",
+          "Gh0stRAT",
+          "msi",
+          "PurpleFox",
+          "xiaoshihou20-top"
+        ],
+        "vendor_intel_c2": null
+      },
+      {
+        "sha256": "58a06239b83f94fabd06b499fcf466c9d3b099fe1f2f0a70847b13f9ab15aa4b",
+        "md5": "f1dabef7a26053f4e4dae2e4f0fc58a2",
+        "imphash": "36332d77f08d6caea0c46db786ca6945",
+        "file_name": "svchost.13.exe",
+        "file_type": "exe",
+        "size": 420864,
+        "sig": "Purplefox",
+        "first_seen": "2025-06-25 00:52:53",
+        "reporter": "GDHJDSYDH1",
+        "tags": [
+          "backdoor",
+          "exe",
+          "gh0st",
+          "Gh0stRAT",
+          "PurpleFox",
+          "RAT"
+        ],
+        "vendor_intel_c2": null
+      },
+      {
+        "sha256": "8be316e9308a263fb890d2847d46b9db59a42e76997dfbc7c7c91a46b0520fc9",
+        "md5": "8c6df59659d4407fa4a07cc094f46dd5",
+        "imphash": null,
+        "file_name": "deepseek.msi",
+        "file_type": "msi",
+        "size": 6331392,
+        "sig": "Gh0stRAT",
+        "first_seen": "2025-06-23 01:27:25",
+        "reporter": "iamaachum",
+        "tags": [
+          "Gh0stCringe",
+          "Gh0stRAT",
+          "msi",
+          "PurpleFox"
+        ],
+        "vendor_intel_c2": null
+      },
+      {
+        "sha256": "1a7fefa02913c1054e4f0e82c9de74e2fb526bd4a589e861fb4f7f57b31ef9c8",
+        "md5": "845010e5afaff2737a34b9e53bacb2c5",
+        "imphash": "eeac73be37480fd144f387e3563a0f14",
+        "file_name": "和平模拟测绘.exe",
+        "file_type": "exe",
+        "size": 4624414,
+        "sig": "XRed",
+        "first_seen": "2025-06-13 20:37:07",
+        "reporter": "GDHJDSYDH1",
+        "tags": [
+          "backdoor",
+          "exe",
+          "gh0st",
+          "Gh0stRAT",
+          "Loader",
+          "PurpleFox",
+          "xred"
+        ],
+        "vendor_intel_c2": null
+      },
+      {
+        "sha256": "ffaec0efa996ed3b95ab80643540b9c54ae15e489b5f8ec0df86458fc9580533",
+        "md5": "581a7b064f38ef7b2e3c58ec7cd10a54",
+        "imphash": null,
+        "file_name": "cflHwJJ.msi",
+        "file_type": "msi",
+        "size": 3272704,
+        "sig": "PurpleFox",
+        "first_seen": "2025-06-03 06:11:54",
+        "reporter": "abuse_ch",
+        "tags": [
+          "msi",
+          "PurpleFox"
+        ],
+        "vendor_intel_c2": null
+      },
+      {
+        "sha256": "bc6fb2eab9ed8d9eb405f6186d08e85be8b1308d207970cc41cf90477aa79064",
+        "md5": "5caa39aecc075d135715b7c84a272531",
+        "imphash": null,
+        "file_name": "bc6fb2eab9ed8d9eb405f6186d08e85be8b1308d207970cc41cf90477aa79064",
+        "file_type": "msi",
+        "size": 26431488,
+        "sig": "PurpleFox",
+        "first_seen": "2025-05-31 07:18:56",
+        "reporter": "JAMESWT_WT",
+        "tags": [
+          "95-173-197-195",
+          "msi",
+          "PurpleFox"
+        ],
+        "vendor_intel_c2": null
+      },
+      {
+        "sha256": "1481c92661c19f0bb8c32233ad85fef4a62c353404425179187f0ad88611752c",
+        "md5": "c1c7ea681bef498d9582d0973eaad82d",
+        "imphash": null,
+        "file_name": "1481c92661c19f0bb8c32233ad85fef4a62c353404425179187f0ad88611752c.zip",
+        "file_type": "zip",
+        "size": 26384835,
+        "sig": "PurpleFox",
+        "first_seen": "2025-05-31 07:17:00",
+        "reporter": "JAMESWT_WT",
+        "tags": [
+          "95-173-197-195",
+          "PurpleFox",
+          "zip"
+        ],
+        "vendor_intel_c2": null
+      },
+      {
+        "sha256": "897679813761edd481768e21d66c27984104b0820bcabfc19b867208264dbb83",
+        "md5": "e4a2afd2650b1261334405d69bfef9a4",
+        "imphash": null,
+        "file_name": "897679813761edd481768e21d66c27984104b0820bcabfc19b867208264dbb83",
+        "file_type": "msi",
+        "size": 23449600,
+        "sig": "PurpleFox",
+        "first_seen": "2025-05-31 07:14:48",
+        "reporter": "JAMESWT_WT",
+        "tags": [
+          "95-173-197-195",
+          "msi",
+          "PurpleFox"
+        ],
+        "vendor_intel_c2": null
+      },
+      {
+        "sha256": "8bf13ab3a74d7d6b02b079f6b59749550710e15c1bcf41ddb620cb13a0ed14f1",
+        "md5": "532b0ed6e4fe12ad3a45cd792f059ea8",
+        "imphash": null,
+        "file_name": "8bf13ab3a74d7d6b02b079f6b59749550710e15c1bcf41ddb620cb13a0ed14f1",
+        "file_type": "msi",
+        "size": 23449600,
+        "sig": "PurpleFox",
+        "first_seen": "2025-05-31 07:14:02",
+        "reporter": "JAMESWT_WT",
+        "tags": [
+          "95-173-197-195",
+          "msi",
+          "PurpleFox"
+        ],
+        "vendor_intel_c2": null
+      },
+      {
+        "sha256": "e22807c287e4cb16cbaeb82723309bc08ae6aae64393d0e31e6320986132f718",
+        "md5": "204506e977474802f025484348ad13a7",
+        "imphash": null,
+        "file_name": "e22807c287e4cb16cbaeb82723309bc08ae6aae64393d0e31e6320986132f718",
+        "file_type": "zip",
+        "size": 23411992,
+        "sig": "Purplefox",
+        "first_seen": "2025-05-31 07:13:16",
+        "reporter": "JAMESWT_WT",
+        "tags": [
+          "95-173-197-195",
+          "PurpleFox",
+          "zip"
+        ],
+        "vendor_intel_c2": null
+      },
+      {
+        "sha256": "369c70383f3ff32fd09f63a8b910a6752ed864cff48e552bd54706004a94905e",
+        "md5": "a3e170fc1d352d1e1c7bf2a239338ac0",
+        "imphash": null,
+        "file_name": "369c70383f3ff32fd09f63a8b910a6752ed864cff48e552bd54706004a94905e",
+        "file_type": "zip",
+        "size": 23405948,
+        "sig": "PurpleFox",
+        "first_seen": "2025-05-31 07:10:02",
+        "reporter": "JAMESWT_WT",
+        "tags": [
+          "95-173-197-195",
+          "PurpleFox",
+          "zip"
+        ],
+        "vendor_intel_c2": null
+      },
+      {
+        "sha256": "91f2839ebc4075e72eae2ae7d9d511523db671b0b70af2350a7df9a10065f707",
+        "md5": "c83853bc72b4aa7d4d4ac3d9820f0e34",
+        "imphash": null,
+        "file_name": "91f2839ebc4075e72eae2ae7d9d511523db671b0b70af2350a7df9a10065f707",
+        "file_type": "zip",
+        "size": 23400199,
+        "sig": "PurpleFox",
+        "first_seen": "2025-05-31 07:09:20",
+        "reporter": "JAMESWT_WT",
+        "tags": [
+          "95-173-197-195",
+          "PurpleFox",
+          "zip"
+        ],
+        "vendor_intel_c2": null
+      },
+      {
+        "sha256": "aa056833ddf916c0175413b344a6075266f6bfaddb872767d45ddbc5bf9b7fc5",
+        "md5": "ec60ff5b8cab86dc26886daca6354be6",
+        "imphash": null,
+        "file_name": "aa056833ddf916c0175413b344a6075266f6bfaddb872767d45ddbc5bf9b7fc5",
+        "file_type": "zip",
+        "size": 23399763,
+        "sig": "PurpleFox",
+        "first_seen": "2025-05-31 07:08:38",
+        "reporter": "JAMESWT_WT",
+        "tags": [
+          "95-173-197-195",
+          "PurpleFox",
+          "zip"
+        ],
+        "vendor_intel_c2": null
+      },
+      {
+        "sha256": "c5a6d83e78d649257bdc514916ccd21ac67a915b2bfe9cdad53f56ab3a792337",
+        "md5": "2ffeea989da4d07b3e009b61e1d6ebfd",
+        "imphash": null,
+        "file_name": "c5a6d83e78d649257bdc514916ccd21ac67a915b2bfe9cdad53f56ab3a792337",
+        "file_type": "msi",
+        "size": 3145728,
+        "sig": "Purplefox",
+        "first_seen": "2025-05-31 07:07:11",
+        "reporter": "JAMESWT_WT",
+        "tags": [
+          "95-173-197-195",
+          "msi",
+          "PurpleFox"
+        ],
+        "vendor_intel_c2": null
+      },
+      {
+        "sha256": "ab6dcc3506532cc0380ca706315b7e0ff9829e6866e13116d994b581e705a4d6",
+        "md5": "05d89c32ce5388e6cfbe5423c8d5a757",
+        "imphash": "992321fcab92a6036168ad2e13146545",
+        "file_name": "ab6dcc3506532cc0380ca706315b7e0ff9829e6866e13116d994b581e705a4d6",
+        "file_type": "dll",
+        "size": 774656,
+        "sig": "PurpleFox",
+        "first_seen": "2025-05-31 07:06:30",
+        "reporter": "JAMESWT_WT",
+        "tags": [
+          "95-173-197-195",
+          "dll",
+          "PurpleFox"
+        ],
+        "vendor_intel_c2": null
+      },
+      {
+        "sha256": "f9624271d7b7ef798f910eb954046cd87abc7c18af1ed1349cd2259b16553cae",
+        "md5": "6affb326ca3db3e1de71c15154dbda62",
+        "imphash": "a4c5416b05e9f4df9e595ea8b866acb7",
+        "file_name": "f9624271d7b7ef798f910eb954046cd87abc7c18af1ed1349cd2259b16553cae",
+        "file_type": "dll",
+        "size": 765952,
+        "sig": "PurpleFox",
+        "first_seen": "2025-05-31 07:06:13",
+        "reporter": "JAMESWT_WT",
+        "tags": [
+          "95-173-197-195",
+          "dll",
+          "PurpleFox"
+        ],
+        "vendor_intel_c2": null
+      },
+      {
+        "sha256": "1531b948d12e9fe574d7accd886e110e29e18c427cc7092facd23fb9c3502486",
+        "md5": "5af1384edd6bd442c05c4e769af26e51",
+        "imphash": null,
+        "file_name": "all.zip",
+        "file_type": "zip",
+        "size": 1283753,
+        "sig": "Gh0stRAT",
+        "first_seen": "2025-05-19 17:00:13",
+        "reporter": "GDHJDSYDH1",
+        "tags": [
+          "backdoor",
+          "dllHijack",
+          "gh0st",
+          "Gh0stRAT",
+          "PurpleFox",
+          "zip"
+        ],
+        "vendor_intel_c2": null
+      },
+      {
+        "sha256": "df8d2aa31a1e622f675b28f46e5eb8d50e61606c5e182969b0376d0d1915062b",
+        "md5": "00f6d1603528412c36b95ff66e71835b",
+        "imphash": "332f7ce65ead0adfb3d35147033aabe9",
+        "file_name": "k40p一键刷入TWRP-A14.exe",
+        "file_type": "exe",
+        "size": 86336000,
+        "sig": "DarkComet",
+        "first_seen": "2025-05-19 00:38:43",
+        "reporter": "GDHJDSYDH1",
+        "tags": [
+          "DarkComet",
+          "exe",
+          "gh0st",
+          "Gh0stRAT",
+          "PurpleFox",
+          "synaptics",
+          "xred"
+        ],
+        "vendor_intel_c2": null
+      },
+      {
+        "sha256": "405f566a3b88bcfc5be667d053778d79f9c84a94987ee2d39bee52d1c222b06d",
+        "md5": "b6cfc7760073690ab440dc629f1fa518",
+        "imphash": "34d9b88f1718040709ed8f970a2443f1",
+        "file_name": "4.3ΘΥΠ½ΧΚ΄ύΣφΖΐ¶¨.exe",
+        "file_type": "exe",
+        "size": 1511424,
+        "sig": "PurpleFox",
+        "first_seen": "2025-04-03 13:16:02",
+        "reporter": "anonymous",
+        "tags": [
+          "exe",
+          "PurpleFox"
+        ],
+        "vendor_intel_c2": null
+      },
+      {
+        "sha256": "ab8dd958b4907abb41d630d8237d8d3794c4f71c47ab55d150f9013cc62fa440",
+        "md5": "f1627e76a8e4507586816abfcd71efaa",
+        "imphash": null,
+        "file_name": "VT1.msi",
+        "file_type": "msi",
+        "size": 29544448,
+        "sig": "Gh0stRAT",
+        "first_seen": "2025-03-30 01:51:34",
+        "reporter": "GDHJDSYDH1",
+        "tags": [
+          "backdoor",
+          "gh0st",
+          "Gh0stRAT",
+          "msi",
+          "PurpleFox"
+        ],
+        "vendor_intel_c2": null
+      },
+      {
+        "sha256": "c162d6215fab16462336d35cb7489c403216717de41a4eb6d11e850a731260db",
+        "md5": "521f3fea25d74d10ab9d311aab53def2",
+        "imphash": null,
+        "file_name": "打包安装包 (2).zip",
+        "file_type": "zip",
+        "size": 349958,
+        "sig": "Nitol",
+        "first_seen": "2025-01-13 10:39:13",
+        "reporter": "zhuzhu0009",
+        "tags": [
+          "backdoor",
+          "Nitol",
+          "PurpleFox",
+          "zip"
+        ],
+        "vendor_intel_c2": null
+      },
+      {
+        "sha256": "0cb5c8e6987f74a213353851dc12b7b3a08130fd5ebb18f4455c659e8f46442f",
+        "md5": "77b621c8ae246da4619c8315c6996576",
+        "imphash": "19d4e66d725c89ba6712b82bebc8196d",
+        "file_name": "PQ2.exe",
+        "file_type": "exe",
+        "size": 502784,
+        "sig": "PurpleFox",
+        "first_seen": "2025-01-02 07:41:28",
+        "reporter": "joker651181",
+        "tags": [
+          "backdoor",
+          "exe",
+          "malware",
+          "PurpleFox",
+          "trojan"
+        ],
+        "vendor_intel_c2": null
+      },
+      {
+        "sha256": "9755ac9d8308666a712c1e3e3d28c497e58be9592ce2556cf374ecac2e88b8ee",
+        "md5": "042ebfc9792a51bd61554078b19c7e6c",
+        "imphash": "032ac126bef9dc99c70a99a6b91b16f2",
+        "file_name": "9755ac9d8308666a712c1e3e3d28c497e58be9592ce2556cf374ecac2e88b8ee.exe",
+        "file_type": "exe",
+        "size": 507904,
+        "sig": "Nitol",
+        "first_seen": "2024-12-23 04:18:15",
+        "reporter": "zhuzhu0009",
+        "tags": [
+          "backdoor",
+          "exe",
+          "Nitol",
+          "PurpleFox",
+          "UPX"
+        ],
+        "vendor_intel_c2": null
+      },
+      {
+        "sha256": "0fca043ce6592269f8463ec4c803eabb3d09ff412401521090513e8310463fdb",
+        "md5": "484d55075f86c767a3347c1e60cd7a86",
+        "imphash": "6ed4f5f04d62b18d96b26d6db7c18840",
+        "file_name": "0fca043ce6592269f8463ec4c803eabb3d09ff412401521090513e8310463fdb",
+        "file_type": "exe",
+        "size": 551936,
+        "sig": "PurpleFox",
+        "first_seen": "2024-07-31 14:00:57",
+        "reporter": "JAMESWT_WT",
+        "tags": [
+          "exe",
+          "PurpleFox",
+          "test-kpubg-xyz"
+        ],
+        "vendor_intel_c2": null
+      },
+      {
+        "sha256": "84fe8b4885f1959623a8ff97586ca1cd3603aa14b16549b67a43cba4e1cfeed6",
+        "md5": "3376a276b02838bfb0396e9bec598f8f",
+        "imphash": "3a8897c84eb41f36b4bbabcc617408b8",
+        "file_name": "WindowsUpdate.exe",
+        "file_type": "exe",
+        "size": 901120,
+        "sig": "Nitol",
+        "first_seen": "2024-07-31 13:29:12",
+        "reporter": "vm001cn",
+        "tags": [
+          "exe",
+          "Gh0stRAT",
+          "Nitol",
+          "PurpleFox"
+        ],
+        "vendor_intel_c2": null
+      },
+      {
+        "sha256": "8b24e43d325a556c6797cc7753f6a555d47b0c7f24bad99b2009baf8a0796065",
+        "md5": "598f99c870529c864b369aff4b27fc20",
+        "imphash": "20731a7f11c966d39ff5ed76a2b984f3",
+        "file_name": "598f99c870529c864b369aff4b27fc20",
+        "file_type": "exe",
+        "size": 9744384,
+        "sig": "PurpleFox",
+        "first_seen": "2024-05-27 11:49:40",
+        "reporter": "zbetcheckin",
+        "tags": [
+          "32",
+          "exe",
+          "Gh0stRAT",
+          "PurpleFox"
+        ],
+        "vendor_intel_c2": null
+      },
+      {
+        "sha256": "8ff1fdb41e62bf7bb34e2172b9da9022c4988bde48cb8d7cf088005e231338ef",
+        "md5": "a0f801a1ea7380a519d8585ebd65e8d8",
+        "imphash": "f34d5f2d4577ed6d9ceec516c1f5a744",
+        "file_name": "Doc1504210_56507_030.exe",
+        "file_type": "exe",
+        "size": 210808,
+        "sig": "PurpleFox",
+        "first_seen": "2024-05-17 05:22:14",
+        "reporter": "threatcat_ch",
+        "tags": [
+          "exe",
+          "PurpleFox"
+        ],
+        "vendor_intel_c2": null
+      },
+      {
+        "sha256": "36c7f5238e3716ffa9039ccaaaf80853b8eca53c03e67baf7127bcd6b9bedf2b",
+        "md5": "d92f64a6977785c39106928c95952648",
+        "imphash": null,
+        "file_name": "Chrome-Setup.msi",
+        "file_type": "msi",
+        "size": 2982912,
+        "sig": "PurpleFox",
+        "first_seen": "2024-04-12 08:26:40",
+        "reporter": "Eden_Christmas",
+        "tags": [
+          "PurpleFox"
+        ],
+        "vendor_intel_c2": null
+      },
+      {
+        "sha256": "efe078fb3808c5b725d33df59da55aff0718534e31908280899c9859a0f2d1a8",
+        "md5": "a7c5adccfeb31331edd0351c7b5fdde9",
+        "imphash": null,
+        "file_name": "Invoice.doc",
+        "file_type": "doc",
+        "size": 25088,
+        "sig": "PurpleFox",
+        "first_seen": "2023-11-02 15:18:44",
+        "reporter": "anonymous",
+        "tags": [
+          "doc",
+          "PurpleFox"
+        ],
+        "vendor_intel_c2": null
+      }
+    ]
+  }
+}

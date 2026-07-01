@@ -1,0 +1,31 @@
+title: PurpleFox 中文语言包诱饵 MSI 执行
+id: 8f1c2a16-0301-4a07-b007-purplefoxmsi001
+status: experimental
+description: >
+  PurpleFox 近期以"点击安装中文语言包*.msi"诱饵专打中文用户,经 msiexec 静默安装,
+  随后释放 BYOVD 驱动隐藏。命中中文语言包命名的 MSI 由 msiexec 执行时告警。
+references:
+  - MAL-2026-0301-QUICKQ
+  - abuse.ch MalwareBazaar (tag=PurpleFox)
+author: IR-team
+date: 2026/07/01
+logsource:
+  product: windows
+  category: process_creation
+detection:
+  selection:
+    Image|endswith: '\msiexec.exe'
+    CommandLine|contains:
+      - '语言包'
+      - '点击安装'
+      - '中文语'
+  selection_ext:
+    CommandLine|contains: '.msi'
+  condition: selection and selection_ext
+falsepositives:
+  - 合法的中文语言包安装极少以此类命名+静默方式分发
+level: high
+tags:
+  - attack.execution
+  - attack.t1218.007
+  - attack.defense-evasion

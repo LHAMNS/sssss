@@ -1,0 +1,34 @@
+title: QuickQ Family A 次世代 - 经 GA4 Measurement Protocol 外泄
+id: 8f1c2a11-0301-4a02-b002-quickqfamilyaa2
+status: experimental
+description: >
+  家族A次世代载荷(douyinray/ttnet)滥用 Google Analytics 4 Measurement Protocol
+  (google-analytics.com/mp/collect)把窃取的 Cookie/账号/输入数据伪装成分析事件外泄。
+  非浏览器进程对 /mp/collect 的高频 POST 值得告警。
+references:
+  - MAL-2026-0301-QUICKQ
+author: IR-team
+date: 2026/07/01
+logsource:
+  category: proxy
+detection:
+  selection:
+    c-uri|contains:
+      - '/mp/collect'
+    cs-host|contains:
+      - 'google-analytics.com'
+      - 'analytics.google.com'
+    cs-method: 'POST'
+  filter_browser:
+    src_process|endswith:
+      - '\chrome.exe'
+      - '\msedge.exe'
+      - '\firefox.exe'
+  condition: selection and not filter_browser
+falsepositives:
+  - 合法桌面App内置遥测(建议按进程签名白名单)
+level: medium
+tags:
+  - attack.exfiltration
+  - attack.t1567.001
+  - attack.t1041

@@ -1,0 +1,43 @@
+title: 伪装成图片/文本的PE落地在 TEMP/APPDATA (BlackMoon/多RAT)
+id: 8f1c2a17-0301-4a08-b008-masqueradepe001
+status: experimental
+description: >
+  本案与多个RAT线(BlackMoon/Farfli/Gh0st)把PE以 .jpg/.png/.txt/.dat/.bmp 扩展落地在
+  %TEMP%/%APPDATA%,再由 rundll32/regsvr32/侧加载执行。文件写入即命中(需EDR记录魔数或后续加载)。
+references:
+  - MAL-2026-0301-QUICKQ
+author: IR-team
+date: 2026/07/01
+logsource:
+  product: windows
+  category: file_event
+detection:
+  selection_path:
+    TargetFilename|contains:
+      - '\AppData\Local\Temp\'
+      - '\AppData\Roaming\'
+      - '\ProgramData\'
+  selection_ext:
+    TargetFilename|endswith:
+      - '.jpg'
+      - '.png'
+      - '.gif'
+      - '.bmp'
+      - '.txt'
+      - '.dat'
+      - '.log'
+  selection_exec:
+    Image|endswith:
+      - '\rundll32.exe'
+      - '\regsvr32.exe'
+      - '\msiexec.exe'
+      - '\powershell.exe'
+  condition: selection_path and selection_ext and selection_exec
+falsepositives:
+  - 部分程序会向这些扩展写入缓存;结合后续 rundll32/regsvr32 加载可显著降噪
+level: medium
+tags:
+  - attack.defense-evasion
+  - attack.t1036.008
+  - attack.t1218.010
+  - attack.t1218.011

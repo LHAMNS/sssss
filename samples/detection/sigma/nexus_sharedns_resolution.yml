@@ -1,0 +1,26 @@
+title: 跨家族 nexus - share-dns.com/net 托管DNS解析
+id: 8f1c2a18-0301-4a09-b009-sharednsnexus01
+status: experimental
+description: >
+  share-dns.com / share-dns.net(注册商 Gname)是横跨 家族A(fx-quickq)、家族C(云隐
+  daliaohengsheng)、RAT线(quickq-quickq/bifa668)的唯一托管DNS nexus。解析其子域可用于
+  发现同生态未知投递/C2域名。
+references:
+  - MAL-2026-0301-QUICKQ (ATTRIBUTION.md)
+author: IR-team
+date: 2026/07/01
+logsource:
+  category: dns_query
+detection:
+  selection:
+    QueryName|contains:
+      - 'share-dns.com'
+      - 'share-dns.net'
+  condition: selection
+falsepositives:
+  - 需人工判定;命中即代表主机使用该nexus托管的域,值得追踪
+level: medium
+tags:
+  - attack.command-and-control
+  - attack.t1071.004
+  - attack.t1583.002

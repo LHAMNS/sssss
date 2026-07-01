@@ -1,0 +1,30 @@
+title: 合法签名宿主侧加载同目录未签名DLL (P2CDN pcdnacc7/douyinray7)
+id: 8f1c2a12-0301-4a03-b003-quickqsideload01
+status: experimental
+description: >
+  家族A借合法签名的P2CDN宿主(快手 pcdnacc7.exe / 抖音 douyinray7.exe)加载同目录下
+  未签名/异常DLL实现DLL侧加载(sideloading)。银狐/FatalRAT亦大量使用签名EXE+恶意DLL。
+references:
+  - MAL-2026-0301-QUICKQ
+author: IR-team
+date: 2026/07/01
+logsource:
+  product: windows
+  category: image_load
+detection:
+  selection_host:
+    Image|endswith:
+      - '\pcdnacc7.exe'
+      - '\douyinray7.exe'
+      - '\pcdnacc.exe'
+  selection_unsigned:
+    ImageLoaded|endswith: '.dll'
+    signed: 'false'
+  condition: selection_host and selection_unsigned
+falsepositives:
+  - 少见;这些宿主名本身即高度可疑
+level: high
+tags:
+  - attack.defense-evasion
+  - attack.t1574.002
+  - attack.persistence

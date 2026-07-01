@@ -1,0 +1,54 @@
+title: 银狐 Silver Fox / AtlasCross C2 与投递域
+id: 8f1c2a14-0301-4a05-b005-silverfoxatlas1
+status: experimental
+description: >
+  银狐(=Void Arachne/游蛇/UTG-Q-1000)AtlasCross RAT 直连专用C2 bifa668.com:9899
+  (韩国 61.111.250.139),并以 typosquat 域(quickq-quickq.com 等)冒用QuickQ品牌投递。
+references:
+  - MAL-2026-0301-QUICKQ
+  - Hexastrike / The Hacker News 2026-03
+author: IR-team
+date: 2026/07/01
+logsource:
+  category: dns_query
+detection:
+  selection_dns:
+    QueryName|contains:
+      - 'bifa668.com'
+      - 'quickq-quickq.com'
+      - 'www-surfshark.com'
+      - 'signal-signal.com'
+      - 'telegrtam.com.cn'
+      - 'trezor-trezor.com'
+      - 'ultraviewer-cn.com'
+      - 'app-zoom.com'
+  condition: selection_dns
+falsepositives:
+  - 无(均为已确认恶意/typosquat域)
+level: critical
+tags:
+  - attack.command-and-control
+  - attack.t1071.001
+  - attack.t1583.001
+---
+title: 银狐 AtlasCross C2 端口 9899 出站 (bifa668)
+id: 8f1c2a15-0301-4a06-b006-silverfoxatlas2
+status: experimental
+description: AtlasCross 二阶段经 TCP 9899 从 61.111.250.139 拉取。
+references:
+  - MAL-2026-0301-QUICKQ
+author: IR-team
+date: 2026/07/01
+logsource:
+  category: firewall
+detection:
+  selection:
+    dst_ip: '61.111.250.139'
+    dst_port: 9899
+  condition: selection
+falsepositives:
+  - 无
+level: critical
+tags:
+  - attack.command-and-control
+  - attack.t1571

@@ -1,0 +1,39 @@
+title: Family B - awsdl PPI/SEO 分发CDN 下载
+id: 8f1c2a19-0301-4a10-b010-awsdlppidist001
+status: experimental
+description: >
+  家族B(AHAspeed/Cham,M LIFESTYLE运营)自有 PPI/联盟分发CDN awsdl.com,按品牌换皮:
+  www.awsdl.com/download/3rdparty/seo/<brand>/<brand>_win.exe。命中该路径=用户正在拉取
+  假VPN/假软件换皮安装器。
+references:
+  - MAL-2026-0301-QUICKQ
+author: IR-team
+date: 2026/07/01
+logsource:
+  category: proxy
+detection:
+  selection_host:
+    cs-host|contains:
+      - 'awsdl.com'
+      - 'awsdl.xyz'
+  selection_path:
+    c-uri|contains:
+      - '/download/3rdparty/seo/'
+      - '_win.exe'
+      - '_mac.pkg'
+  selection_mirror:
+    cs-host|contains:
+      - 'jsq888.com'
+      - 'sqly666.top'
+      - 'xinguawl.cn'
+      - 'fdkwl888.com'
+      - 'hellocham.com'
+      - 'ahaspeed.com'
+  condition: (selection_host and selection_path) or selection_mirror
+falsepositives:
+  - 无(均为已确认PPI分发设施)
+level: high
+tags:
+  - attack.initial-access
+  - attack.t1189
+  - attack.t1608.001

@@ -1,0 +1,32 @@
+title: QuickQ Family A - Falcon 假DNS策略写入注册表 (26.26.26.x)
+id: 8f1c2a10-0301-4a01-b001-quickqfamilyaa1
+status: experimental
+description: >
+  家族A(快连/QuickQ Falcon SDK)通过写入 DnsPolicyConfig 注册表策略,把系统DNS
+  劫持到 26.26.26.x 假DNS(fakeDns/DNSDispatcher),实现流量劫持与选择性重定向。
+  合法软件极少直接写 NRPT 策略并指向 26.26.26.0/24 保留段。
+references:
+  - MAL-2026-0301-QUICKQ
+author: IR-team
+date: 2026/07/01
+logsource:
+  product: windows
+  category: registry_set
+detection:
+  selection_path:
+    TargetObject|contains: '\Services\Dnscache\Parameters\DnsPolicyConfig\'
+  selection_value:
+    Details|contains:
+      - '26.26.26.'
+  filter_system:
+    Image|endswith:
+      - '\svchost.exe'
+      - '\services.exe'
+  condition: selection_path and selection_value and not filter_system
+falsepositives:
+  - 企业自建NRPT策略(通常由GPO/svchost写入,已过滤)
+level: high
+tags:
+  - attack.command-and-control
+  - attack.t1071.004
+  - attack.t1557
