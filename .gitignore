@@ -1,3 +1,6 @@
 # Malware sample binaries - DO NOT commit to repository
 {app}\\*
 要求
+
+# 强密码(绝不提交)
+samples/_SECRET/
