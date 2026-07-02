@@ -137,7 +137,10 @@ The shellcode is a **reflective PE loader** that:
 |----------|-------|
 | Format | ZIP (PK header `50 4b 03 04`) with encryption flag set |
 | Contents | `text/text.exe` (454,656 bytes compressed to 210,378) |
-| Password | Unknown (not present in extracted sample files) |
+| Password | **`lalala123%`** (hardcoded in `you.dll` .rdata at offset 0x1E170) |
+| Decrypted | `text/text.exe` — PE32+ AMD64, 454,656 bytes |
+| text.exe SHA256 | `4d36f32a67bf46360323da37477900ab3cdc48d8c8aedb132a5288f7bbd06e32` |
+| text.exe role | Winos4.0 plugin loader — delay-imports all 64 functions from `zjeufh.dll` |
 
 ---
 
@@ -255,3 +258,133 @@ The architecture (reflective loader → encrypted DLL with large `.???0` data se
 - The `.???0` section containing encrypted stage-2 data is a known Winos4.0 characteristic
 
 This confirms the Family A next-gen payload is built on the **Winos4.0 RAT framework** with custom modifications for the QuickQ/LetsVPN distribution campaign.
+
+---
+
+## 7. Deep Analysis: `you.dll` Internal Architecture (Session 2)
+
+### 7.1 Control Flow Obfuscation
+
+`you.dll` uses a **split-code architecture**:
+- Function prologues reside in `.text`, but immediately jump to **code trampolines** in the `.???0` section tail (from offset ~0x98E00)
+- Trampolines use **API hash resolution**: `push IMM32; call resolver` (resolver at VA `0x18013D179`)
+- CryptoAPI functions (`CryptAcquireContext`, `CryptImportKey`, `CryptDecrypt`) are **dynamically resolved** through this hash-based dispatcher — no static imports
+- The `.pdata` section (4,608 bytes) is **entirely repurposed** as encrypted/config data (entropy 7.77, zero valid RUNTIME_FUNCTION entries)
+
+### 7.2 String Obfuscation (Caesar +4 Cipher)
+
+All sensitive strings are obfuscated with a +4 Caesar shift on ASCII characters:
+
+| Encoded | Decoded | Purpose |
+|---------|---------|---------|
+| `QmgvswsjxIhkiIpizexmsrWivzmgi` | MicrosoftEdgeElevationService | Anti-AV service check |
+| `KsskpiGlvsqiIpizexmsrWivzmgi` | GoogleChromeElevationService | Anti-AV service check |
+| `I\|tviwwZTR$ZTR$Wivzmgi` | ExpressVPN VPN Service | Anti-AV service check |
+| `I\|tviwwZTR$W}wxiq$Wivzmgi` | ExpressVPN System Service | Anti-AV service check |
+| `m8XsspwWivzmgi` | i4ToolsService | Anti-AV service check |
+| `Iziv}xlmrk` | Everything | Anti-analysis (search tool) |
+| `[Wievgl` | WSearch | Windows Search service |
+| `Wtsspiv` | Spooler | Print Spooler service |
+| `ylwwzg` | uhssvc | Unknown service |
+
+### 7.3 `tex1.bmp` ZIP Password: `lalala123%`
+
+The string `lalala123%` at `.rdata` offset 0x1E170 is the **ZIP password for `tex1.bmp`**. The extracted `text/text.exe` (SHA256: `4d36f32a67bf46360323da37477900ab3cdc48d8c8aedb132a5288f7bbd06e32`) is a Winos4.0 plugin loader that:
+- Delay-imports all 64 export functions from `zjeufh.dll`
+- Imports `LoadLibraryExW`, `GetProcAddress`, `RegOpenKeyExW`, `CreateFileW`, `GetFileSize`
+- Imports from `winmde.dll` (MFCreateWinMDEOpCenter, MFCreateNetVRoot)
+- Uses PowerAPI (`PowerCreateRequest`, `PowerSetRequest`) for sleep prevention
+
+### 7.4 `zjeufh.dll` BNwuxRC4 Export — Red Herring
+
+The `BNwuxRC4` export function in `zjeufh.dll` is a **decoy/red herring**:
+```
+BNwuxRC4:
+  sub rsp, 0x28
+  lea rdx, [rip+0x112e1]    ; some data address
+  xor r9d, r9d
+  xor ecx, ecx
+  mov r8, rdx
+  call [rip+0xe9f7]         ; → USER32.dll!MessageBoxA
+  xor eax, eax
+  ret
+```
+It simply calls `MessageBoxA` — the actual RC4 decryption logic is in other functions among the 64 exports.
+
+### 7.5 `.???0` Section: Winos4.0 Encrypted Config (Magic 0x19930522)
+
+The `.???0` section begins with Winos4.0 magic `0x19930522` and contains a structured header with two config entries:
+
+| Field | Entry 1 | Entry 2 |
+|-------|---------|---------|
+| Magic | 0x19930522 | 0x19930522 |
+| Type | 4 | 1 |
+| Data size | 0x571E0 (356,832 bytes) | 0x41B98 (269,208 bytes) |
+| Flags | 0x11 | 0x03 |
+| Offset | 0x57200 | 0x41BA0 |
+| Key size | 32 | 136 |
+
+The section layout:
+- **+0x00 to +0x4F**: Two config entry headers (40 bytes each)
+- **+0x50 to ~+0x41BF0**: Entry 2 blob (key + encrypted data, entropy 7.87)
+- **~+0x41BF0 to ~+0x98DF0**: Entry 1 blob (key + encrypted data, entropy 6.82)
+- **~+0x98DF0 to end**: Code trampolines for the obfuscated API dispatcher (entropy 5.32)
+
+### 7.6 RC4 Key Candidates (Hardcoded in `.rdata`)
+
+Five binary blobs in `.rdata` (file offsets 0x1C0A0–0x1C100) are loaded via `lea rcx` and passed to the `.???0` dispatcher for CryptoAPI operations:
+
+| Blob | Offset | Size | Hex |
+|------|--------|------|-----|
+| A | 0x1C0A0 | 22 | `0c 07 82 ba 46 7a 04 e0 10 a7 1e f0 0b 78 a1 c3 b6 42 1e fc 40 4a` |
+| B | 0x1C0B8 | 23 | `56 a3 9b 88 f2 10 d2 ab 75 0b 9c 5d 6e 31 31 c7 f2 9a 5c 58 49 b8 d2` |
+| C | 0x1C0D0 | 22 | `c2 e8 82 c2 46 9f d2 ad 32 14 0c 78 a8 70 01 c0 a0 58 13 6d 30 1f` |
+| **D** | **0x1C0E8** | **20** | **`99 8a 0c 3a 85 54 49 f4 44 90 66 63 e5 22 8c 9a 7e dc 15 20`** |
+| E | 0x1C100 | 35 | `cb 94 4c a1 19 79 73 e4 62 a7 0b fd ba f8 4f c4 e9 1d 02 85 5a ee 6a f9...` |
+
+**Blob D** (20 bytes) is the strongest RC4-160 candidate — exactly matching the PLAINTEXTKEYBLOB key size used by CryptoAPI for RC4. The PLAINTEXTKEYBLOB header (`08 02 00 00 01 68 00 00 14 00 00 00`) is **constructed at runtime** in the obfuscated `.???0` code, not stored statically.
+
+### 7.7 `you.dll` Configuration Block
+
+The `.rdata` configuration block at VA `0x18001FB00` contains:
+
+| Offset | Content | Purpose |
+|--------|---------|---------|
+| 0x1E148 | `%s%s\` | Path construction format |
+| 0x1E150 | `%szje` | Partial format for zjeufh.dll path |
+| 0x1E158 | `ufh.dll` | Runtime-loaded companion DLL |
+| 0x1E160 | `%s%s`, `%s\%s` | Path construction formats |
+| 0x1E170 | `lalala123%` | tex1.bmp ZIP password |
+| 0x1E17C | `text/` | ZIP internal path prefix |
+| 0x1E2C0 | `ntdll.dll` (wide) | Dynamic API loading |
+| 0x1E310 | `Advapi32.dll` (wide) | CryptoAPI provider |
+| 0x1E330 | `Kernel32.dll` (wide) | Core API provider |
+
+### 7.8 Persistence: Registry Key
+
+`you.dll` creates a registry key at `SOFTWARE\logseta102` under HKLM for persistence, using `RegCreateKeyExA` / `RegSetValueExA`.
+
+### 7.9 Random Name Generation
+
+For file/directory persistence, `you.dll` generates random alphanumeric names:
+- Character table: `0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz` (62 chars)
+- Directory names: 6–8 characters (`rand() % 3 + 6`)
+- Executable names: 7 characters
+- File suffixes: `.tmp` variants (`t3d.tmp`, `t4d.tmp`, `t6d.tmp`)
+
+---
+
+## 8. Updated IOC Hashes
+
+| Indicator | Type | Value |
+|-----------|------|-------|
+| you.dll (hfel) | SHA256 | `2b1e24b68f8c3354947c62c0090855d82d673307a10d518545a83f4638457138` |
+| zjeufh.dll (d.bmp) | SHA256 | `8483bc43d3ee2bb12fb1ca9e8b4da612a665b92d3524b5d08316a1cb47f860fa` |
+| text.exe (tex1.bmp) | SHA256 | `4d36f32a67bf46360323da37477900ab3cdc48d8c8aedb132a5288f7bbd06e32` |
+| you.dll | MD5 | `2ed78216e35e0aeefe9ce242cf37a1e8` |
+| text.exe | MD5 | `1132ade4fb34daa00954c93efe168050` |
+| you.dll export | string | `you` |
+| zjeufh.dll export | string | `BNwuxRC4` (decoy — calls MessageBoxA) |
+| tex1.bmp password | string | `lalala123%` |
+| Winos4.0 magic | DWORD | `0x19930522` |
+| Registry persistence | path | `HKLM\SOFTWARE\logseta102` |
