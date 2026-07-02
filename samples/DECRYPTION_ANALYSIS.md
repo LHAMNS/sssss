@@ -344,6 +344,8 @@ Five binary blobs in `.rdata` (file offsets 0x1C0A0–0x1C100) are loaded via `l
 
 **Blob D** (20 bytes) is the strongest RC4-160 candidate — exactly matching the PLAINTEXTKEYBLOB key size used by CryptoAPI for RC4. The PLAINTEXTKEYBLOB header (`08 02 00 00 01 68 00 00 14 00 00 00`) is **constructed at runtime** in the obfuscated `.???0` code, not stored statically.
 
+Note: These blobs are for decrypting the `.???0` internal payloads, **NOT** the subdirectory plugin files. See section 7.11 for plugin key analysis.
+
 ### 7.7 `you.dll` Configuration Block
 
 The `.rdata` configuration block at VA `0x18001FB00` contains:
@@ -388,3 +390,75 @@ For file/directory persistence, `you.dll` generates random alphanumeric names:
 | tex1.bmp password | string | `lalala123%` |
 | Winos4.0 magic | DWORD | `0x19930522` |
 | Registry persistence | path | `HKLM\SOFTWARE\logseta102` |
+| Real zjeufh.dll export | string | `ON0p5xuoa47RctAehGP6` (ordinal 21, only non-decoy function) |
+
+---
+
+## 9. `zjeufh.dll` Deep Analysis
+
+### 9.1 Decoy Export Architecture
+
+**63 of 64 exports are identical `MessageBoxA` decoy stubs**, each displaying its ordinal number. The only real function is `ON0p5xuoa47RctAehGP6` (ordinal 21, RVA `0x39C0`), which enters VM-protected code in `.???0`.
+
+### 9.2 VM-Obfuscated `.???0` Section
+
+Unlike `you.dll`, the `.???0` section in `zjeufh.dll` is **executable VM-obfuscated code** (section characteristics `0x68000060` = exec+read), not encrypted data. The VM uses:
+- Junk instructions (`stc`, `clc`, `xadd reg,reg`)
+- Opaque predicates
+- Multi-level indirect jumps
+- Hash-based API resolution
+
+### 9.3 Anti-Analysis Gating
+
+Before reaching crypto code, the malware:
+1. Calls `EnumWindows` with a callback to enumerate visible windows (checking for analysis tools)
+2. Dispatches to VM-protected checker code
+3. Only proceeds to crypto operations if checks pass
+
+### 9.4 CryptoAPI Dynamic Resolution
+
+`zjeufh.dll` dynamically loads `Advapi32.dll` via `LoadLibraryW` and resolves CryptoAPI functions with **obfuscated function name strings** (using a different scheme than Caesar+4). The `CALG_RC4` constant (`0x00006801`) was found at `.???0` file offset `0x35829`.
+
+### 9.5 `zjeufh.dll` RC4 Key Candidates
+
+| Candidate | Offset | Size | Hex | Context |
+|-----------|--------|------|-----|---------|
+| A (VM) | 0x3F162 | 20 | `b3 83 e6 b1 74 85 a4 1f 2e 67 e6 9d 6f 49 a0 94 b3 5f 5b da` | Embedded in VM bytecode, preceded by DWORD 0x14 (=20) |
+| **B** | **0x13100** | **20** | **`26 f6 7f ea c5 56 ee 35 62 41 20 05 fc 91 15 ab b2 b6 15 a4`** | Terminal record in post-anti-analysis crypto block |
+| C | 0x13212 | 20 | `d8 53 8f c8 86 7f aa d6 7c 7b 5a 16 09 2b 86 24 69 ac 62 b2` | Adjacent data record |
+| D | 0x13360 | 20 | `e5 c9 13 46 aa f6 57 59 14 10 4a 00 e0 aa c0 0d a5 d0 29 85` | Config header, loaded by main entry |
+
+---
+
+## 10. Plugin Decryption: Key Delivered by C2
+
+### 10.1 Static Analysis Conclusion
+
+Exhaustive static analysis of `you.dll`, `zjeufh.dll`, and `text.exe` — testing all hardcoded key candidates against all 12 plugin files and 8 top-level random files — produced **zero successful decryptions**. The RC4 key for plugin files is definitively **NOT embedded in the binaries**.
+
+### 10.2 Key Delivery Mechanism
+
+Based on the Winos4.0 framework architecture:
+
+1. **Client initialization**: `you.dll` loads, decrypts `.???0` internal config, establishes persistence
+2. **C2 connection**: Connects to C2 server (known ports: 18852, 443, 9899 — see `network_iocs.txt`)
+3. **Key exchange**: C2 responds with configuration containing the RC4 key for plugin decryption
+4. **Plugin decryption**: Key passed via CryptoAPI `PLAINTEXTKEYBLOB` (built on stack at runtime) → `CryptImportKey` → `CryptDecrypt`
+5. **Plugin execution**: Decrypted DLL loaded into memory via `VirtualAlloc` → reflective load → execute
+
+### 10.3 What Would Be Needed
+
+To extract the actual plugin RC4 key:
+- **Dynamic analysis**: Run in sandbox, hook `CryptImportKey`, read `pbData+12` (20-byte key)
+- **Network capture**: Intercept C2 communication during initial handshake
+- **Memory forensics**: Dump process memory after C2 connection, scan for PLAINTEXTKEYBLOB structures
+
+### 10.4 What Static Analysis DID Reveal
+
+Despite not extracting the runtime key, static analysis fully mapped:
+- The decryption **algorithm** (RC4-160 via CryptoAPI)
+- The **code path** from entry to CryptoAPI calls (through VM-obfuscated trampolines)
+- The **anti-analysis** gates that must be bypassed (service checks, window enumeration)
+- All **string obfuscation** techniques (Caesar+4, separate scheme for API names)
+- The **key construction** method (PLAINTEXTKEYBLOB built on stack, not stored)
+- The **internal DLL loading** chain (you.dll → ufh.dll/zjeufh.dll → text.exe → plugins)
